@@ -6,6 +6,7 @@ import { store } from "./app/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
+import Layout from "./components/Layout/Layout";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -13,7 +14,9 @@ const root = createRoot(container);
 root.render(
   <BrowserRouter>
     <Provider store={store}>
-      <App />
+      <Layout>
+        <App />
+      </Layout>
     </Provider>
   </BrowserRouter>
 );
