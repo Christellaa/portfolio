@@ -16,6 +16,7 @@ export default function NavbarModal() {
           Compétences
         </Link>
       </li>
+      <hr className={navbarModalStyles.hr} />
       <li className={navbarModalStyles.noBullet}>
         <Link to={cv} className={navbarModalStyles.noDecoration} target="blank">
           CV
