@@ -1,6 +1,26 @@
-# Getting Started with Create React App and Redux
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## About the project:
+
+Project 12 of the course Intégrateur Web of Openclassrooms.
+
+The goal is to create and publish our own portfolio website, for mobile and desktop users.
+Any langages or frameworks can be used.
+
+However, what must be done is to put:
+
+- the courses followed;
+- the skills we have;
+- at least two projets, with a description of it, the skills gained and developed, and a link to its code or website;
+- the website online;
+- make it responsive.
+
+## Tools used:
+
+- React
+- CSS Modules
+- Git
+- VSCode
 
 ## Available Scripts
 
@@ -39,8 +59,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Clone the project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+`git clone https://github.com/Christellaa/portfolio.git`
