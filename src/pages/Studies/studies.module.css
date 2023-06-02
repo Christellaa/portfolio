@@ -1,0 +1,42 @@
+.noBullet {
+  list-style: none;
+  padding-left: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 50px;
+}
+@media screen and (min-width: 769px) {
+  .grid {
+    padding: 20px 200px 50px 200px;
+  }
+}
+
+.gridItem {
+  border-radius: 5px;
+  background-color: #678eda;
+  box-shadow: #000000 0px 0px 4px;
+  padding: 0px 15px;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.place {
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.date {
+  margin-top: 0;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
