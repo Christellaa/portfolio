@@ -6,6 +6,18 @@ export default function NavbarModal() {
   return (
     <ul className={navbarModalStyles.modal}>
       <li className={navbarModalStyles.noBullet}>
+        <Link className={navbarModalStyles.noDecoration} to="/">
+          À Propos
+        </Link>
+      </li>
+      <hr className={navbarModalStyles.hr} />
+      <li className={navbarModalStyles.noBullet}>
+        <Link className={navbarModalStyles.noDecoration} to="/studies">
+          Parcours
+        </Link>
+      </li>
+      <hr className={navbarModalStyles.hr} />
+      <li className={navbarModalStyles.noBullet}>
         <Link className={navbarModalStyles.noDecoration} to="/projects">
           Projets
         </Link>
