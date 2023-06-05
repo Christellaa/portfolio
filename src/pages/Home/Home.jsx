@@ -14,7 +14,7 @@ export default function Home() {
           Devenir développeuse est un choix de carrière passionnant, qui offre
           de nombreuses opportunités de croissance professionnelle et
           personnelle. En effet, ce métier permet de donner vie à nos idées dans
-          la création de sites web, en combiant notre créativité à nos
+          la création de sites web, en combinant notre créativité à nos
           compétences dans le domaine.
           <br />
           La constante évolution des technologies garantit de toujours avoir des
@@ -37,10 +37,10 @@ export default function Home() {
           monde du développement web, et je suis toujours à la recherche
           d'opportunités pour élargir mes compétences et me tenir au courant des
           dernières évolutions technologiques. <br />
-          Avec moi, j'apporte un fort déir d'apprendre, de grandir et d'avoir un
-          impact significatif dans ce domaine. Je suis consciente que mon
+          Avec moi, j'apporte un fort désir d'apprendre, de grandir et d'avoir
+          un impact significatif dans ce domaine. Je suis consciente que mon
           expérience peut être limitée, mais je suis impatiente de surmonter
-          tous les défis qui se présentent à moi. Je pense qu'êter un
+          tous les défis qui se présentent à moi. Je pense qu'être un
           développeur junior est un avantage unique car cela permet d'aborder
           les projets avec une perspective nouvelle.
         </p>
