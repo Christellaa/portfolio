@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Certification professionnelle Développeur Intégrateur Web - Titre RNCP niveau 5",
+    "place": "OpenClassrooms - Paris",
+    "year": "2022 - 2023",
+    "text": [
+      "Construire un site web responsive et dynamique",
+      "Planifier le déroulement de la réalisation d’un site",
+      "Analyser les besoins client à partir d’un cahier des charges et de user stories",
+      "Optimiser le référencement et débogguer un site"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "1ère année de licence Langues, Littérature et Civilisations Étrangères et Régionales (LLCER) Anglais-Japonais",
+    "place": "Université Gustave Eiffel - Marne-la-Vallée",
+    "year": "2019 - 2020",
+    "text": [
+      "Apprentissage orale et écrite de l’anglais et du japonais",
+      "Analyse et traduction littéraire (anglais-français et français-anglais)"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bac Sciences et Technologies du Management et de la Gestion (STMG) - option Systèmes d’Information et de Gestion (SIG)",
+    "place": "Campus Jules Ferry - Coulommiers",
+    "year": "2018 - 2019",
+    "text": [
+      "Conception et développement d’un site web",
+      "Modélisation du processus de développement d'un site web",
+      "Architecture d'une base de données SQL"
+    ]
+  }
+]
