@@ -8,7 +8,7 @@ import LayoutStyles from "../Layout/layout.module.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className={FooterStyles.bg}>
       <ul className={FooterStyles.footer}>
         <li className={LayoutStyles.noBullet}>
           <Link
