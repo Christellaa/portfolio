@@ -14,21 +14,21 @@ export default function Projects() {
           <img src="#" alt="#" />
           <div className={ProjectsStyles.inline}>
             <h2>Kasa</h2>
-            <button>Lien du code</button>
+            <button className={ProjectsStyles.btn}>Lien du code</button>
           </div>
         </article>
         <article className={ProjectsStyles.gridItem}>
           <img src="#" alt="#" />
           <div className={ProjectsStyles.inline}>
             <h2>Kasa</h2>
-            <button>Lien du code</button>
+            <button className={ProjectsStyles.btn}>Lien du code</button>
           </div>
         </article>
         <article className={ProjectsStyles.gridItem}>
           <img src="#" alt="#" />
           <div className={ProjectsStyles.inline}>
             <h2>Kasa</h2>
-            <button>Lien du code</button>
+            <button className={ProjectsStyles.btn}>Lien du code</button>
           </div>
         </article>
       </main>

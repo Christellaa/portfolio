@@ -15,3 +15,8 @@
   justify-content: space-between;
   align-items: baseline;
 }
+
+.btn {
+  background-color: #ff3d00;
+  color: #f0e8e8;
+}
