@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  gap: 50px;
+}
+
+.gridItem {
+  border-radius: 5px;
+  background-color: #678eda;
+  box-shadow: #000000 0px 0px 4px;
+  padding: 0px 15px;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
