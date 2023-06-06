@@ -1,5 +1,7 @@
 import ProjectsStyles from "./projects.module.css";
 import LayoutStyles from "../../components/Layout/layout.module.css";
+import projectData from "../../data/projectData.json";
+import Project from "./Project";
 
 export default function Projects() {
   return (
@@ -10,27 +12,15 @@ export default function Projects() {
         au sein d'OpenClassrooms.
       </p>
       <main className={ProjectsStyles.grid}>
-        <article className={ProjectsStyles.gridItem}>
-          <img src="#" alt="#" />
-          <div className={ProjectsStyles.inline}>
-            <h2>Kasa</h2>
-            <button className={ProjectsStyles.btn}>Lien du code</button>
-          </div>
-        </article>
-        <article className={ProjectsStyles.gridItem}>
-          <img src="#" alt="#" />
-          <div className={ProjectsStyles.inline}>
-            <h2>Kasa</h2>
-            <button className={ProjectsStyles.btn}>Lien du code</button>
-          </div>
-        </article>
-        <article className={ProjectsStyles.gridItem}>
-          <img src="#" alt="#" />
-          <div className={ProjectsStyles.inline}>
-            <h2>Kasa</h2>
-            <button className={ProjectsStyles.btn}>Lien du code</button>
-          </div>
-        </article>
+        {projectData.map((content, id) => (
+          <Project
+            key={id}
+            title={content.title}
+            img={content.image}
+            altImg={content.altImage}
+            link={content.link}
+          />
+        ))}
       </main>
     </div>
   );
