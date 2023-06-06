@@ -7,7 +7,7 @@ export default function Project({ title, img, altImg, link }) {
       <img src={img} alt={altImg} />
       <div className={ProjectsStyles.inline}>
         <h2>{title}</h2>
-        <Link to={link} className={ProjectsStyles.btn}>
+        <Link to={link} className={ProjectsStyles.btn} target="blank">
           Lien du code
         </Link>
       </div>
