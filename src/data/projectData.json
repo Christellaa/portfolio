@@ -2,16 +2,22 @@
   {
     "id": 1,
     "title": "Kasa",
-    "image": "#"
+    "image": "./assets/kasa_banner.png",
+    "altImage": "Page d'accueil du projet Kasa",
+    "link": "https://github.com/Christellaa/kasa"
   },
   {
     "id": 2,
     "title": "Kasa",
-    "image": "#"
+    "image": "#",
+    "altImage": "Page d'accueil du projet Kasa",
+    "link": "https://github.com/Christellaa/kasa"
   },
   {
     "id": 3,
     "title": "Kasa",
-    "image": "#"
+    "image": "#",
+    "altImage": "Page d'accueil du projet Kasa",
+    "link": "https://github.com/Christellaa/kasa"
   }
 ]
