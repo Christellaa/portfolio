@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend",
+    "skills": [
+      {
+        "id": 1,
+        "title": "React",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 2,
+        "title": "React2",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 3,
+        "title": "React3",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 4,
+        "title": "React4",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Backend",
+    "skills": [
+      {
+        "id": 1,
+        "title": "backend1",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 2,
+        "title": "backend2",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 3,
+        "title": "backend3",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 4,
+        "title": "backend4",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Outils",
+    "skills": [
+      {
+        "id": 1,
+        "title": "outil1",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 2,
+        "title": "outil2",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 3,
+        "title": "outil3",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 4,
+        "title": "outil4",
+        "image": "./assets/reactIcon.png",
+        "altImage": "Icône du framework React",
+        "details": ["...", "...", "..."]
+      }
+    ]
+  }
+]
