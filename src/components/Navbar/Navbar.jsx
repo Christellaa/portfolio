@@ -25,7 +25,7 @@ export default function Navbar() {
       {isModalOpen && (
         <>
           <div
-            className="bg-transparent"
+            className="bgModalBackdrop"
             onClick={(e) => setModalOpen(false)}
           ></div>
           <NavbarModal setModalOpen={setModalOpen} />
