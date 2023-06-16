@@ -1,9 +1,12 @@
 import projectData from "../../data/projectData.json";
 import { useParams } from "react-router-dom";
 import Error from "../Error";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import websiteImg from "../../assets/website.svg";
+import ProjectCard from "./ProjectCard";
 
 export default function ProjectDetails() {
   const params = useParams();
@@ -17,14 +20,27 @@ export default function ProjectDetails() {
   const {
     id,
     title,
+    website,
+    linkCode,
     details: { description, tools, learned },
   } = project;
 
   return (
-    <div key={id}>
-      <div>
-        <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
-        <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
+    <div key={id} className="wrapper">
+      <div className="flex projectLinks">
+        <Link to="/projects">
+          <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
+        </Link>
+        <span className="flex space">
+          {website !== null && (
+            <Link to={website} target="blank">
+              <img src={websiteImg} alt="website" width="23" />
+            </Link>
+          )}
+          <Link to={linkCode} target="blank">
+            <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
+          </Link>
+        </span>
       </div>
       <div>
         <h1>{title}</h1>
