@@ -6,97 +6,106 @@
       {
         "id": 1,
         "title": "React",
-        "image": "./assets/reactIcon.png",
+        "image": "./assets/icons/reactIcon.svg",
         "altImage": "Icône du framework React",
         "details": ["...", "...", "..."]
       },
       {
         "id": 2,
-        "title": "React2",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "JavaScript",
+        "image": "./assets/icons/jsIcon.svg",
+        "altImage": "Icône du langage JavaScript",
         "details": ["...", "...", "..."]
       },
       {
         "id": 3,
-        "title": "React3",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "HTML",
+        "image": "./assets/icons/htmlIcon.svg",
+        "altImage": "Icône du langage HTML",
         "details": ["...", "...", "..."]
       },
       {
         "id": 4,
-        "title": "React4",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "CSS",
+        "image": "./assets/icons/cssIcon.svg",
+        "altImage": "Icône du langage CSS",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 5,
+        "title": "Sass (syntaxe SCSS)",
+        "image": "./assets/icons/sassIcon.svg",
+        "altImage": "Icône du préprocesseur Sass",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 6,
+        "title": "Redux Toolkit",
+        "image": "./assets/icons/reduxIcon.svg",
+        "altImage": "Icône de la librairie Redux Toolkit",
         "details": ["...", "...", "..."]
       }
     ]
   },
+
   {
     "id": 2,
-    "title": "Backend",
-    "skills": [
-      {
-        "id": 1,
-        "title": "backend1",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
-        "details": ["...", "...", "..."]
-      },
-      {
-        "id": 2,
-        "title": "backend2",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
-        "details": ["...", "...", "..."]
-      },
-      {
-        "id": 3,
-        "title": "backend3",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
-        "details": ["...", "...", "..."]
-      },
-      {
-        "id": 4,
-        "title": "backend4",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
-        "details": ["...", "...", "..."]
-      }
-    ]
-  },
-  {
-    "id": 3,
     "title": "Outils",
     "skills": [
       {
         "id": 1,
-        "title": "outil1",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "Visual Studio Code",
+        "image": "./assets/icons/vscodeIcon.svg",
+        "altImage": "Icône de l'éditeur de texte Visual Studio Code",
         "details": ["...", "...", "..."]
       },
       {
         "id": 2,
-        "title": "outil2",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "Git",
+        "image": "./assets/icons/gitIcon.svg",
+        "altImage": "Icône du logiciel Git",
         "details": ["...", "...", "..."]
       },
       {
         "id": 3,
-        "title": "outil3",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "GitHub",
+        "image": "./assets/icons/githubIcon.svg",
+        "altImage": "Icône de la plateforme GitHub",
         "details": ["...", "...", "..."]
       },
       {
         "id": 4,
-        "title": "outil4",
-        "image": "./assets/reactIcon.png",
-        "altImage": "Icône du framework React",
+        "title": "MongoDB Compass",
+        "image": "./assets/icons/mongodbIcon.svg",
+        "altImage": "Icône du logiciel MongoDB Compass",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 5,
+        "title": "Swagger",
+        "image": "./assets/icons/swaggerIcon.svg",
+        "altImage": "Icône du logiciel Swagger",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 6,
+        "title": "Figma",
+        "image": "./assets/icons/figmaIcon.svg",
+        "altImage": "Icône du logiciel Figma",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 7,
+        "title": "Trello",
+        "image": "./assets/icons/trelloIcon.svg",
+        "altImage": "Icône du logiciel Trello",
+        "details": ["...", "...", "..."]
+      },
+      {
+        "id": 8,
+        "title": "Lighthouse",
+        "image": "./assets/icons/lighthouseIcon.svg",
+        "altImage": "Icône du logiciel Lighthouse",
         "details": ["...", "...", "..."]
       }
     ]
