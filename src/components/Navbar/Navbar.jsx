@@ -3,7 +3,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import NavbarModal from "../NavbarModal/NavbarModal";
 import { useState } from "react";
-import navbarStyles from "./navbar.module.css";
 
 export default function Navbar() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -13,17 +12,25 @@ export default function Navbar() {
       {!isModalOpen ? (
         <FontAwesomeIcon
           icon={faBars}
-          className={navbarStyles.menu}
-          onClick={() => setModalOpen(true)}
+          className="icon colorLinks"
+          onClick={(e) => setModalOpen(true)}
         />
       ) : (
         <FontAwesomeIcon
           icon={faArrowLeft}
-          className={navbarStyles.menu}
+          className="icon colorLinks"
           onClick={() => setModalOpen(false)}
         />
       )}
-      {isModalOpen && <NavbarModal onClick={(e) => e.stopPropagation()} />}
+      {isModalOpen && (
+        <>
+          <div
+            className="bg-transparent"
+            onClick={(e) => setModalOpen(false)}
+          ></div>
+          <NavbarModal setModalOpen={setModalOpen} />
+        </>
+      )}
     </nav>
   );
 }
