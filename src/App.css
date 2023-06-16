@@ -104,6 +104,30 @@ header img {
   border-radius: 2px;
 }
 
+.bg-transparent {
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbarModal {
+  position: fixed;
+  background-color: #424668;
+  gap: 15px;
+  top: 42px;
+  right: 0;
+  padding: 10px;
+  z-index: 2;
+}
+
+.navbarHr {
+  width: 60px;
+}
+
 .grid {
   display: grid;
 }
