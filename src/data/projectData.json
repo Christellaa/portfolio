@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Kasa",
-    "imageDesktop": "./assets/kasaDesktop.png",
-    "imageMobile": "./assets/kasaMobile.png",
+    "imageDesktop": "./assets/images/kasaDesktop.png",
+    "imageMobile": "./assets/images/kasaMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop kasaDesktop",
     "classnameMobile": "positionAbsolute imgMobile kasaMobile",
     "altImage": "Page d'accueil du projet Kasa",
@@ -25,8 +25,8 @@
   {
     "id": 2,
     "title": "ArgentBank",
-    "imageDesktop": "./assets/argentbankDesktop.png",
-    "imageMobile": "./assets/argentbankMobile.png",
+    "imageDesktop": "./assets/images/argentbankDesktop.png",
+    "imageMobile": "./assets/images/argentbankMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop argentbankDesktop",
     "classnameMobile": "positionAbsolute imgMobile argentbankMobile",
     "altImage": "Page d'accueil du projet ArgentBank",
@@ -53,8 +53,8 @@
   {
     "id": 3,
     "title": "Site portfolio de Nina Carducci",
-    "imageDesktop": "./assets/ninaDesktop.png",
-    "imageMobile": "./assets/ninaMobile.png",
+    "imageDesktop": "./assets/images/ninaDesktop.png",
+    "imageMobile": "./assets/images/ninaMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop ninaDesktop",
     "classnameMobile": "positionAbsolute imgMobile ninaMobile",
     "altImage": "Page du projet Portfolio Nina Carducci",
@@ -83,8 +83,8 @@
   {
     "id": 4,
     "title": "Site OhMyFood",
-    "imageDesktop": "./assets/ohmyfoodDesktop.png",
-    "imageMobile": "./assets/ohmyfoodMobile.png",
+    "imageDesktop": "./assets/images/ohmyfoodDesktop.png",
+    "imageMobile": "./assets/images/ohmyfoodMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop ohmyfoodDesktop",
     "classnameMobile": "positionAbsolute imgMobile ohmyfoodMobile",
     "altImage": "Page d'accueil du projet OhMyFood",
