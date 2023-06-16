@@ -2,22 +2,102 @@
   {
     "id": 1,
     "title": "Kasa",
-    "image": "./assets/kasa_banner.png",
+    "imageDesktop": "./assets/kasaDesktop.png",
+    "imageMobile": "./assets/kasaMobile.png",
+    "classnameDesktop": "positionAbsolute imgDesktop kasaDesktop",
+    "classnameMobile": "positionAbsolute imgMobile kasaMobile",
     "altImage": "Page d'accueil du projet Kasa",
-    "link": "https://github.com/Christellaa/kasa"
+    "website": "https://christellaa.github.io/kasa/",
+    "linkCode": "https://github.com/Christellaa/kasa",
+    "details": {
+      "description": "Créer en desktop first, puis en version mobile, le site internet de Kasa, une entreprise de location immobilière.",
+      "tools": ["React", "Sass", "Git", "VSCode"],
+      "learned": [
+        "Créer un projet React avec Create React App",
+        "Créer des routes React pour accéder aux différentes pages du site",
+        "Accéder à la page de l'id sélectionné, grâce au hook useParams",
+        "Utiliser des clés-valeurs d'un fichier JSON en les important",
+        "Réutiliser des morceaux de code à l'aide de composants et de la méthode map()",
+        "Passer des données du composant parent au composant enfant grâce aux props"
+      ]
+    }
   },
   {
     "id": 2,
-    "title": "Kasa",
-    "image": "#",
-    "altImage": "Page d'accueil du projet Kasa",
-    "link": "https://github.com/Christellaa/kasa"
+    "title": "ArgentBank",
+    "imageDesktop": "./assets/argentbankDesktop.png",
+    "imageMobile": "./assets/argentbankMobile.png",
+    "classnameDesktop": "positionAbsolute imgDesktop argentbankDesktop",
+    "classnameMobile": "positionAbsolute imgMobile argentbankMobile",
+    "altImage": "Page d'accueil du projet ArgentBank",
+    "website": null,
+    "linkCode": "https://github.com/Christellaa/ArgentBank-website/tree/main",
+    "details": {
+      "description": "Intégrer les pages HTML en React, permettre la connexion à un utilisateur de la base de données et la modification du nom de l'utilisateur connecté. Rédiger un document YAML pour l'API du site, en y ajoutant les différents endpoints concernant les transactions.",
+      "tools": [
+        "React",
+        "Redux Toolkit",
+        "CSS",
+        "MongoDBCompass",
+        "Swagger",
+        "Git",
+        "VSCode"
+      ],
+      "learned": [
+        "Utiliser un outil permettant l'accès à une base de données",
+        "Interagir avec une base de données",
+        "Rédiger un document YAML à l'aide de l'outil Swagger"
+      ]
+    }
   },
   {
     "id": 3,
-    "title": "Kasa",
-    "image": "#",
-    "altImage": "Page d'accueil du projet Kasa",
-    "link": "https://github.com/Christellaa/kasa"
+    "title": "Site portfolio de Nina Carducci",
+    "imageDesktop": "./assets/ninaDesktop.png",
+    "imageMobile": "./assets/ninaMobile.png",
+    "classnameDesktop": "positionAbsolute imgDesktop ninaDesktop",
+    "classnameMobile": "positionAbsolute imgMobile ninaMobile",
+    "altImage": "Page du projet Portfolio Nina Carducci",
+    "website": "https://christellaa.github.io/ninacarducci/",
+    "linkCode": "https://github.com/Christellaa/ninacarducci",
+    "details": {
+      "description": "Optimiser la performance, l'accessibilité et le SEO du site portfolio de Nina Carducci. Le code HTML, Bootstrap et Javascript est à modifier selon l'optimisation choisie.",
+      "tools": [
+        "Lighthouse",
+        "Wave",
+        "Google Rich Snippet",
+        "HTML",
+        "Bootstrap",
+        "JavaScript",
+        "Git",
+        "VSCode"
+      ],
+      "learned": [
+        "Optimiser des images",
+        "Rendre plus accessible un site internet",
+        "Utiliser différents outils d'optimisation",
+        "Rédiger un rapport d'optimisation"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Site OhMyFood",
+    "imageDesktop": "./assets/ohmyfoodDesktop.png",
+    "imageMobile": "./assets/ohmyfoodMobile.png",
+    "classnameDesktop": "positionAbsolute imgDesktop ohmyfoodDesktop",
+    "classnameMobile": "positionAbsolute imgMobile ohmyfoodMobile",
+    "altImage": "Page d'accueil du projet OhMyFood",
+    "website": "https://christellaa.github.io/ohmyfood/",
+    "linkCode": "https://github.com/Christellaa/ohmyfood",
+    "details": {
+      "description": "Créer en mobile first, puis en version desktop, la page d'accueil ainsi que quatre pages de menu du site OhMyFood. La page d'accueil doit contenir un loader, les coeurs et les différents menus doivent être animés.",
+      "tools": ["HTML", "Sass", "Git", "VSCode"],
+      "learned": [
+        "Créer des animations et transitions sur diffférentes parties d'un site",
+        "Créer un loader",
+        "Créer des feuilles de style avec Sass"
+      ]
+    }
   }
 ]
