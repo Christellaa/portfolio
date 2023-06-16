@@ -28,9 +28,26 @@ export default function ProjectDetails() {
       </div>
       <div>
         <h1>{title}</h1>
+        <h2>Description</h2>
         <p>{description}</p>
-        <p>{tools}</p>
-        <p>{learned}</p>
+        <h2>Langages utilisés</h2>
+        <ul className="NoPaddingLeft">
+          {tools.map((tool, id) => (
+            <li key={id} className="flex ProjectItems">
+              <FontAwesomeIcon icon={faPlay} className="colorBtn" />
+              {tool}
+            </li>
+          ))}
+        </ul>
+        <h2>Ce que le projet m'a apporté</h2>
+        <ul className="NoPaddingLeft">
+          {learned.map((learn, id) => (
+            <li key={id} className="flex ProjectItems">
+              <FontAwesomeIcon icon={faPlay} className="colorBtn" />
+              {learn}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
