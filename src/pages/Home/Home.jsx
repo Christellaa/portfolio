@@ -1,14 +1,11 @@
-import homeStyles from "./home.module.css";
-import LayoutStyles from "../../components/Layout/layout.module.css";
-
 export default function Home() {
   return (
-    <div className={LayoutStyles.wrapper}>
-      <h1 className={homeStyles.textUppercase}>
+    <div className="wrapper">
+      <h1 className="textUppercase">
         Christella <br />
-        <span className={homeStyles.marginLeft}>De Sousa</span>
+        <span className="marginLeft">De Sousa</span>
       </h1>
-      <hr className={homeStyles.hr} />
+      <hr className="hr" />
       <main>
         <p>
           Devenir développeuse est un choix de carrière passionnant, qui offre

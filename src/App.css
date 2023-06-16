@@ -12,3 +12,249 @@
     font-size: 16px;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .grid {
+    padding: 20px 200px 50px 200px;
+  }
+}
+
+.noBullet {
+  list-style: none;
+  padding-left: 0;
+}
+
+.noDecoration {
+  text-decoration: none;
+}
+
+.colorLinks {
+  color: #fefefa;
+}
+
+.colorBtn {
+  color: #ff3d00;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.icon {
+  font-size: 23px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexAround {
+  justify-content: space-around;
+}
+
+.flexCenter {
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  min-height: 100vh;
+  background-color: #fffef2;
+}
+
+.wrapper {
+  flex: 1;
+  padding: 5px 15px;
+}
+
+.header {
+  background-color: #333652;
+  justify-content: space-between;
+  height: 58px;
+  padding: 5px 15px;
+}
+
+header img {
+  width: 58px;
+}
+
+.footer {
+  background-color: #333652;
+  justify-content: space-evenly;
+  height: 58px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.marginLeft {
+  margin-left: 53px;
+}
+
+.hr {
+  width: 130px;
+  border: 2px solid #1f1f1f;
+  border-radius: 2px;
+}
+
+.grid {
+  display: grid;
+}
+
+.gridGap {
+  gap: 50px;
+}
+
+.projectGridItem {
+  border-radius: 5px;
+  padding-top: 20px;
+  box-shadow: 0 4px 15px #00000026;
+}
+
+.imgContainer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.imgContainerDesktop {
+  height: 100px;
+  width: 164px;
+  right: 8px;
+  background-image: url("./assets//imgBaseDesktop.png");
+}
+.imgContainerMobile {
+  height: 89px;
+  width: 49px;
+  top: 5px;
+  right: 6px;
+  background-image: url("./assets/imgBaseMobile.png");
+  transform: rotate(351deg) skew(344deg, 7deg)
+    matrix3d(1, 0, 0, -0.0003, -0.37, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+.imgDesktop {
+  width: 127px;
+  left: 19px;
+  top: 4px;
+}
+
+.imgMobile {
+  width: 38px;
+  right: 9px;
+  top: 3px;
+}
+
+.kasaDesktop {
+  clip-path: inset(0 0 206px 0);
+}
+.kasaMobile {
+  clip-path: inset(0 0 652px 0);
+}
+
+.argentbankDesktop {
+  height: 83px;
+}
+.argentbankMobile {
+  clip-path: inset(0 0 114px 0);
+}
+
+.ninaDesktop {
+  clip-path: inset(0 0 334px 0);
+}
+.ninaMobile {
+  clip-path: inset(0 0 925px 0);
+}
+
+.ohmyfoodDesktop {
+  clip-path: inset(0 0 29px 0);
+}
+.ohmyfoodMobile {
+  clip-path: inset(0 0 210px 0);
+}
+
+.projectSpace {
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+
+.h2 {
+  margin-top: 7px;
+}
+
+.space {
+  gap: 30px;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 35px;
+  justify-items: center;
+  margin: 30px 0;
+}
+
+.studyGridItem {
+  border-radius: 5px;
+  background-color: #ede1d6;
+  box-shadow: #b09a9a 0px 0px 4px;
+  padding: 0px 15px;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.place {
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.date {
+  margin-top: 0;
+}
+
+.studySpace {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbarModal {
+  position: fixed;
+  background-color: #424668;
+  gap: 15px;
+  top: 42px;
+  right: 0;
+  padding: 10px;
+  z-index: 2;
+}
+
+.navbarHr {
+  width: 60px;
+}
+
+.small {
+  width: 80px;
+}
