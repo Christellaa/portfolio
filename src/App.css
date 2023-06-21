@@ -216,11 +216,9 @@ header img {
   clip-path: inset(0 0 22px 0);
 }
 
-.kasaDesktop {
-  clip-path: inset(0 0 206px 0);
-}
-.kasaMobile {
-  clip-path: inset(0 0 652px 0);
+.kasaDesktop,
+.ninaDesktop {
+  clip-path: inset(0 0 55px 0);
 }
 
 .argentbankDesktop {
