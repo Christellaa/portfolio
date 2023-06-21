@@ -5,7 +5,6 @@ import { Provider } from "react-redux";
 import { store } from "./app/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./index.css";
 import Layout from "./components/Layout/Layout";
 
 const container = document.getElementById("root");
