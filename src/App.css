@@ -144,13 +144,14 @@ header img {
 }
 
 .navbarModal {
-  position: fixed;
+  position: absolute;
   background-color: #424668;
   gap: 15px;
-  top: 42px;
+  top: 52px;
   right: 0;
   padding: 10px;
   z-index: 2;
+  border-bottom-left-radius: 3px;
 }
 
 .navbarHr {
