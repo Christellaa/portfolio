@@ -307,3 +307,17 @@ header img {
 .small {
   width: 80px;
 }
+
+.skillModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 30px 50px;
+  border: 1px black solid;
+  padding: 0.7em 1em;
+  z-index: 2;
+  overflow: auto;
+  box-shadow: #1f1f1f 0px 1px 10px;
+}
