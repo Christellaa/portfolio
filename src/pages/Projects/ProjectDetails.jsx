@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom";
 import Error from "../Error";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import websiteImg from "../../assets/website.svg";
-import ProjectCard from "./ProjectCard";
+import checkMark from "../../assets/checkMark.svg";
 
 export default function ProjectDetails() {
   const params = useParams();
@@ -50,7 +50,7 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {tools.map((tool, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <FontAwesomeIcon icon={faPlay} className="colorBtn" />
+              <img src={checkMark} width="23" alt="Icône de coche" />
               {tool}
             </li>
           ))}
@@ -59,7 +59,7 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {learned.map((learn, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <FontAwesomeIcon icon={faPlay} className="colorBtn" />
+              <img src={checkMark} width="23" alt="Icône de coche" />
               {learn}
             </li>
           ))}
