@@ -194,8 +194,9 @@ header img {
   top: 51px;
   right: 16px;
   background-image: url("./assets/baseMobile.png");
-  transform: rotate(351deg) skew(344deg, 7deg)
+  transform: rotate(351deg) skew(344deg, 7deg) scale(2)
     matrix3d(1, 0, 0, -0.0003, -0.37, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  zoom: 0.5;
 }
 
 .positionAbsolute {
