@@ -20,46 +20,49 @@ export default function ProjectCard() {
           website,
           linkCode,
         }) => (
-          <article key={id} className="flexColumn projectGridItem">
-            <div className="flex flexAround">
-              <div className="imgContainer imgContainerDesktop">
-                <img
-                  src={imageDesktop}
-                  alt={altImage}
-                  className={classnameDesktop}
-                />
-              </div>
-              <div className="imgContainer imgContainerMobile">
-                <img
-                  src={imageMobile}
-                  alt={altImage}
-                  className={classnameMobile}
-                />
-              </div>
-            </div>
-            <div className="flex flexCenter projectSpace">
-              <Link to={`/projects/${id}`} className="noDecoration colorBtn">
-                <h2>{title}</h2>
-              </Link>
-
-              <span className="flex space">
-                {website !== null && (
-                  <Link to={website} target="blank">
-                    <img src={websiteImg} alt="website" width="23" />
-                  </Link>
-                )}
-                <Link to={linkCode} target="blank">
-                  <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
-                </Link>
-                <Link to={`/projects/${id}`}>
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    className="colorBtn icon"
+          <Link
+            to={`/projects/${id}`}
+            className="noDecoration colorBtn"
+            key={id}
+          >
+            <article className="flexColumn items projectGridItem">
+              <div className="flex flexAround">
+                <div className="imgContainer imgContainerDesktop">
+                  <img
+                    src={imageDesktop}
+                    alt={altImage}
+                    className={classnameDesktop}
                   />
-                </Link>
-              </span>
-            </div>
-          </article>
+                </div>
+                <div className="imgContainer imgContainerMobile">
+                  <img
+                    src={imageMobile}
+                    alt={altImage}
+                    className={classnameMobile}
+                  />
+                </div>
+              </div>
+              <div className="flex flexCenter projectSpace">
+                <h2>{title}</h2>
+                <span className="flex space">
+                  {website !== null && (
+                    <img
+                      src={websiteImg}
+                      alt="website"
+                      width="23"
+                      onClick={() => window.open(website, "_blank")}
+                    />
+                  )}
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="icon"
+                    onClick={() => window.open(linkCode, "_blank")}
+                  />
+                  <FontAwesomeIcon icon={faArrowRight} className="icon" />
+                </span>
+              </div>
+            </article>
+          </Link>
         )
       )}
     </>
