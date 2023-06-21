@@ -46,7 +46,7 @@ export default function ProjectDetails() {
         <h1>{title}</h1>
         <h2>Description</h2>
         <p>{description}</p>
-        <h2>Langages utilisés</h2>
+        <h2>Langages et outils utilisés</h2>
         <ul className="NoPaddingLeft">
           {tools.map((tool, id) => (
             <li key={id} className="flex ProjectItems">
