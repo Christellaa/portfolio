@@ -166,10 +166,14 @@ header img {
   gap: 50px;
 }
 
-.projectGridItem {
+.items {
+  background-color: #ede1d6;
   border-radius: 5px;
+  box-shadow: #b09a9a 0px 4px 14px;
+}
+
+.projectGridItem {
   padding-top: 20px;
-  box-shadow: 0 4px 15px #00000026;
 }
 
 .imgContainer {
