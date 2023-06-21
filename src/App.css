@@ -213,6 +213,7 @@ header img {
   width: 38px;
   right: 9px;
   top: 3px;
+  clip-path: inset(0 0 22px 0);
 }
 
 .kasaDesktop {
