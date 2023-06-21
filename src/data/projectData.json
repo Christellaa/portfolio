@@ -38,7 +38,7 @@
         "React",
         "Redux Toolkit",
         "CSS",
-        "MongoDBCompass",
+        "MongoDB Compass",
         "Swagger",
         "Git",
         "VSCode"
@@ -94,7 +94,7 @@
       "description": "Créer en mobile first, puis en version desktop, la page d'accueil ainsi que quatre pages de menu du site OhMyFood. La page d'accueil doit contenir un loader, les coeurs et les différents menus doivent être animés.",
       "tools": ["HTML", "Sass", "Git", "VSCode"],
       "learned": [
-        "Créer des animations et transitions sur diffférentes parties d'un site",
+        "Créer des animations et transitions sur différentes parties d'un site",
         "Créer un loader",
         "Créer des feuilles de style avec Sass"
       ]
