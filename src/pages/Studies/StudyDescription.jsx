@@ -1,12 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import checkMark from "../../assets/checkMark.svg";
 
 export default function Study({ description }) {
   return (
     <>
       {description.map((descriptionItem, id) => (
-        <li key={id} className="studySpace">
-          <FontAwesomeIcon icon={faCode} className="flex space" />
+        <li key={id} className="flex listItems itemsSpace">
+          <img src={checkMark} width="23" alt="Icône de coche" />
           {descriptionItem}
         </li>
       ))}
