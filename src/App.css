@@ -321,3 +321,9 @@ header img {
   overflow: auto;
   box-shadow: #1f1f1f 0px 1px 10px;
 }
+
+.xMark {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
