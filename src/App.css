@@ -222,24 +222,11 @@ header img {
 }
 
 .argentbankDesktop {
-  height: 83px;
-}
-.argentbankMobile {
-  clip-path: inset(0 0 114px 0);
-}
-
-.ninaDesktop {
-  clip-path: inset(0 0 334px 0);
-}
-.ninaMobile {
-  clip-path: inset(0 0 925px 0);
+  height: 84px;
 }
 
 .ohmyfoodDesktop {
   clip-path: inset(0 0 29px 0);
-}
-.ohmyfoodMobile {
-  clip-path: inset(0 0 210px 0);
 }
 
 .projectSpace {
