@@ -12,7 +12,7 @@
       },
       {
         "id": 2,
-        "title": "JavaScript",
+        "name": "JavaScript",
         "image": "./assets/icons/jsIcon.svg",
         "altImage": "Icône du langage JavaScript",
         "details": ["...", "...", "..."]
@@ -26,7 +26,7 @@
       },
       {
         "id": 4,
-        "title": "CSS",
+        "name": "CSS",
         "image": "./assets/icons/cssIcon.svg",
         "altImage": "Icône du langage CSS",
         "details": ["...", "...", "..."]
@@ -40,7 +40,7 @@
       },
       {
         "id": 6,
-        "title": "Redux Toolkit",
+        "name": "Redux Toolkit",
         "image": "./assets/icons/reduxIcon.svg",
         "altImage": "Icône de la librairie Redux Toolkit",
         "details": ["...", "...", "..."]
@@ -54,56 +54,56 @@
     "skills": [
       {
         "id": 1,
-        "title": "Visual Studio Code",
+        "name": "Visual Studio Code",
         "image": "./assets/icons/vscodeIcon.svg",
         "altImage": "Icône de l'éditeur de texte Visual Studio Code",
         "details": ["...", "...", "..."]
       },
       {
         "id": 2,
-        "title": "Git",
+        "name": "Git",
         "image": "./assets/icons/gitIcon.svg",
         "altImage": "Icône du logiciel Git",
         "details": ["...", "...", "..."]
       },
       {
         "id": 3,
-        "title": "GitHub",
+        "name": "GitHub",
         "image": "./assets/icons/githubIcon.svg",
         "altImage": "Icône de la plateforme GitHub",
         "details": ["...", "...", "..."]
       },
       {
         "id": 4,
-        "title": "MongoDB Compass",
+        "name": "MongoDB Compass",
         "image": "./assets/icons/mongodbIcon.svg",
         "altImage": "Icône du logiciel MongoDB Compass",
         "details": ["...", "...", "..."]
       },
       {
         "id": 5,
-        "title": "Swagger",
+        "name": "Swagger",
         "image": "./assets/icons/swaggerIcon.svg",
         "altImage": "Icône du logiciel Swagger",
         "details": ["...", "...", "..."]
       },
       {
         "id": 6,
-        "title": "Figma",
+        "name": "Figma",
         "image": "./assets/icons/figmaIcon.svg",
         "altImage": "Icône du logiciel Figma",
         "details": ["...", "...", "..."]
       },
       {
         "id": 7,
-        "title": "Trello",
+        "name": "Trello",
         "image": "./assets/icons/trelloIcon.svg",
         "altImage": "Icône du logiciel Trello",
         "details": ["...", "...", "..."]
       },
       {
         "id": 8,
-        "title": "Lighthouse",
+        "name": "Lighthouse",
         "image": "./assets/icons/lighthouseIcon.svg",
         "altImage": "Icône du logiciel Lighthouse",
         "details": ["...", "...", "..."]
