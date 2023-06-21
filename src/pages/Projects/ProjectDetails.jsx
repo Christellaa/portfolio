@@ -49,7 +49,7 @@ export default function ProjectDetails() {
         <h2>Langages et outils utilisés</h2>
         <ul className="NoPaddingLeft">
           {tools.map((tool, id) => (
-            <li key={id} className="flex ProjectItems">
+            <li key={id} className="flex listItems itemsSpace">
               <FontAwesomeIcon icon={faPlay} className="colorBtn" />
               {tool}
             </li>
@@ -58,7 +58,7 @@ export default function ProjectDetails() {
         <h2>Ce que le projet m'a apporté</h2>
         <ul className="NoPaddingLeft">
           {learned.map((learn, id) => (
-            <li key={id} className="flex ProjectItems">
+            <li key={id} className="flex listItems itemsSpace">
               <FontAwesomeIcon icon={faPlay} className="colorBtn" />
               {learn}
             </li>
