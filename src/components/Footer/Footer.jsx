@@ -13,7 +13,7 @@ export default function Footer() {
             className="noDecoration colorLinks"
             to="mailto:desousa.christella@proton.me"
           >
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </Link>
         </li>
         <li className="noBullet">
@@ -22,7 +22,7 @@ export default function Footer() {
             to="https://www.linkedin.com/in/christella-desousa/"
             target="blank"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </Link>
         </li>
         <li className="noBullet">
@@ -31,7 +31,7 @@ export default function Footer() {
             to="https://github.com/Christellaa"
             target="blank"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} className="icon" />
           </Link>
         </li>
       </ul>
