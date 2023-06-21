@@ -5,45 +5,80 @@
     "skills": [
       {
         "id": 1,
-        "title": "React",
+        "name": "React",
         "image": "./assets/icons/reactIcon.svg",
         "altImage": "Icône du framework React",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Créer un projet React avec Create React App",
+          "Créer des routes React pour accéder aux différentes pages du site",
+          "Accéder à la page de l'id sélectionné, grâce au hook useParams",
+          "Utiliser des clés-valeurs d'un fichier JSON en les important",
+          "Réutiliser des morceaux de code à l'aide de composants et de la méthode map()",
+          "Passer des données du composant parent au composant enfant grâce aux props",
+          "Utiliser le hook useState() afin de changer l'état d'un donnée"
+        ]
       },
       {
         "id": 2,
         "name": "JavaScript",
         "image": "./assets/icons/jsIcon.svg",
         "altImage": "Icône du langage JavaScript",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Créer un carrousel cliquable à plusieurs images",
+          "Afficher sur le site les données d'une API",
+          "Ajouter, modifier et supprimer les données d'une API à travers le site",
+          "Créer une modale",
+          "Permettre la connexion et déconnexion de l'utilisateur",
+          "Filtrer des données du site"
+        ]
       },
       {
         "id": 3,
-        "title": "HTML",
+        "name": "HTML",
         "image": "./assets/icons/htmlIcon.svg",
         "altImage": "Icône du langage HTML",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Créer et structurer le contenu du site",
+          "Amener à un autre site, à différentes pages du site ou à différents endroits de la page",
+          "Inclure des images, icônes et fichiers au site",
+          "Ajouter des polices de caractères de Google Font"
+        ]
       },
       {
         "id": 4,
         "name": "CSS",
         "image": "./assets/icons/cssIcon.svg",
         "altImage": "Icône du langage CSS",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Gérer le style du site",
+          "Créer des animations et transitions sur différentes parties d'un site",
+          "Créer un loader",
+          "Utiliser les media queries pour gérer le style du site selon la taille d'écran"
+        ]
       },
       {
         "id": 5,
-        "title": "Sass (syntaxe SCSS)",
+        "name": "Sass (syntaxe SCSS)",
         "image": "./assets/icons/sassIcon.svg",
         "altImage": "Icône du préprocesseur Sass",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Gérer le style du site",
+          "Utiliser les variables pour stocker et réutiliser des valeurs",
+          "Imbriquer les sélecteurs en raccord afin de simplifier la visualisastion du code",
+          "Couper en modules le code SCSS",
+          "Utiliser les mixins afin de stocker et réutiliser des déclarations CSS"
+        ]
       },
       {
         "id": 6,
         "name": "Redux Toolkit",
         "image": "./assets/icons/reduxIcon.svg",
         "altImage": "Icône de la librairie Redux Toolkit",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Interagir avec une base de données",
+          "Gérer les différents états du site à l'aide de reducers",
+          "Vérifier si l'utilisateur s'est connecté, lors du rechargement de la page"
+        ]
       }
     ]
   },
@@ -57,56 +92,84 @@
         "name": "Visual Studio Code",
         "image": "./assets/icons/vscodeIcon.svg",
         "altImage": "Icône de l'éditeur de texte Visual Studio Code",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Explorer les diffférents fichiers du site",
+          "Utiliser les commandes Git dans le terminal",
+          "Ajouter des extensions afin d'affiner le code",
+          "Utiliser l'extension Live Server pour accéder en temps réel au site"
+        ]
       },
       {
         "id": 2,
         "name": "Git",
         "image": "./assets/icons/gitIcon.svg",
         "altImage": "Icône du logiciel Git",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Créer ou cloner un projet",
+          "Ajouter, changer et fusionner des branches",
+          "Enregistrer les modifications effectuées sur le code",
+          "Accéder à l'historique des modifications",
+          "Envoyer des projets ou modifications dans un dossier GitHub"
+        ]
       },
       {
         "id": 3,
         "name": "GitHub",
         "image": "./assets/icons/githubIcon.svg",
         "altImage": "Icône de la plateforme GitHub",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Accéder, ajouter, modifier et supprimer différents dossiers et fichiers",
+          "Utiliser les dossiers d'autres utilisateurs",
+          "Ajouter des problèmes, nommées Issues, dans un dossier",
+          "Héberger un site sur GitHub Pages"
+        ]
       },
       {
         "id": 4,
         "name": "MongoDB Compass",
         "image": "./assets/icons/mongodbIcon.svg",
         "altImage": "Icône du logiciel MongoDB Compass",
-        "details": ["...", "...", "..."]
+        "details": ["Accéder à une base de données", "Faire des requêtes"]
       },
       {
         "id": 5,
         "name": "Swagger",
         "image": "./assets/icons/swaggerIcon.svg",
         "altImage": "Icône du logiciel Swagger",
-        "details": ["...", "...", "..."]
+        "details": ["Rédiger un document YAML", "Accéder à une base de données"]
       },
       {
         "id": 6,
         "name": "Figma",
         "image": "./assets/icons/figmaIcon.svg",
         "altImage": "Icône du logiciel Figma",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Concevoir une maquette et un prototype de site web et mobile",
+          "Collaborer sur une maquette et un prototype"
+        ]
       },
       {
         "id": 7,
         "name": "Trello",
         "image": "./assets/icons/trelloIcon.svg",
         "altImage": "Icône du logiciel Trello",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Gérer l'avancement d'un projet",
+          "Ajouter l'équipe travaillant sur un projet",
+          "Organiser les différentes tâches d'un projet",
+          "Ajouter des délais et des personnes de l'équipe sur une tâche d'un projet"
+        ]
       },
       {
         "id": 8,
         "name": "Lighthouse",
         "image": "./assets/icons/lighthouseIcon.svg",
         "altImage": "Icône du logiciel Lighthouse",
-        "details": ["...", "...", "..."]
+        "details": [
+          "Optimiser la performance et le SEO d'un site internet",
+          "Rendre plus accessible un site internet",
+          "Connaitre ce qui ralentit un site"
+        ]
       }
     ]
   }
