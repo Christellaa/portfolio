@@ -14,7 +14,7 @@ export default function SkillModal({ name, details, Toggle }) {
     >
       <FontAwesomeIcon
         icon={faXmark}
-        className="icon xMark"
+        className="icon xMark cursorPointer"
         onClick={() => Toggle()}
       />
       <h1 className="textCenter">React</h1>

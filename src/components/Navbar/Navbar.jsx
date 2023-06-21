@@ -13,13 +13,13 @@ export default function Navbar() {
       {!isModalOpen ? (
         <FontAwesomeIcon
           icon={faBars}
-          className="icon colorLinks"
+          className="icon colorLinks cursorPointer"
           onClick={(e) => setModalOpen(true)}
         />
       ) : (
         <FontAwesomeIcon
           icon={faArrowLeft}
-          className="icon colorLinks"
+          className="icon colorLinks cursorPointer"
           onClick={() => setModalOpen(false)}
         />
       )}

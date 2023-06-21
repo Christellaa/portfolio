@@ -18,7 +18,7 @@ export default function Skill({ title, skills }) {
           <div key={id}>
             <img
               src={content.image}
-              className="small skillIcon"
+              className="small skillIcon cursorPointer"
               alt={content.altImage}
               onClick={() => Toggle()}
             />
