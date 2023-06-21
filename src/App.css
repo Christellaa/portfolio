@@ -134,8 +134,8 @@ header img {
 }
 
 .bgModalBackdrop {
-  background-color: transparent;
-  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
   height: 100%;
   width: 100%;
   top: 0;
