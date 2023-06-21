@@ -186,14 +186,14 @@ header img {
   height: 100px;
   width: 164px;
   right: 8px;
-  background-image: url("./assets//imgBaseDesktop.png");
+  background-image: url("./assets/baseDesktop.png");
 }
 .imgContainerMobile {
   height: 89px;
   width: 49px;
-  top: 5px;
-  right: 6px;
-  background-image: url("./assets/imgBaseMobile.png");
+  top: 51px;
+  right: 16px;
+  background-image: url("./assets/baseMobile.png");
   transform: rotate(351deg) skew(344deg, 7deg)
     matrix3d(1, 0, 0, -0.0003, -0.37, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
