@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="flex flexCenter header">
       <Link to="./">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo du site" />
       </Link>
       <Navbar />
     </header>
