@@ -28,16 +28,20 @@ export default function ProjectDetails() {
   return (
     <div key={id} className="wrapper">
       <div className="flex projectLinks">
-        <Link to="/projects">
+        <Link to="/projects" aria-label="Retourner sur l'ensemble des projets">
           <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
         </Link>
         <span className="flex space">
           {website !== null && (
             <Link to={website} target="blank">
-              <img src={websiteImg} alt="website" width="23" />
+              <img src={websiteImg} alt="Voir le site web" width="23" />
             </Link>
           )}
-          <Link to={linkCode} target="blank">
+          <Link
+            to={linkCode}
+            target="blank"
+            aria-label="Voir le code du site sur GitHub"
+          >
             <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
           </Link>
         </span>
