@@ -5,9 +5,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Skill({ title, skills }) {
   const [isModalOpen, setModalOpen] = useState(false);
+  function openModal(id) {
+    setSelectedSkill(id);
+    setModalOpen(true);
+  }
 
-  function Toggle() {
-    setModalOpen(!isModalOpen);
+  function closeModal() {
+    setSelectedSkill("");
+    setModalOpen(false);
   }
 
   return (
