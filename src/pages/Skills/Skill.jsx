@@ -36,23 +36,18 @@ export default function Skill({ title, skills }) {
       <AnimatePresence>
         {isModalOpen && (
           <>
-            {skillData.map((content, id) => (
-              <>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0, transition: { delay: 0.2 } }}
-                  className="bgModalBackdrop"
-                  onClick={() => Toggle()}
-                ></motion.div>
-                <SkillModal
-                  key={id}
-                  name={content.skills.name}
-                  details={content.skills.details}
-                  Toggle={Toggle}
-                />
-              </>
-            ))}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0, transition: { delay: 0.2 } }}
+              className="bgModalBackdrop"
+              onClick={() => closeModal()}
+            ></motion.div>
+            <SkillModal
+              openModal={openModal}
+              closeModal={closeModal}
+              idSkill={selectedSkill}
+            />
           </>
         )}
       </AnimatePresence>
