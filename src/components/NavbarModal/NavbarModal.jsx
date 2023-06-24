@@ -14,7 +14,10 @@ export default function NavbarModal({ setModalOpen }) {
         <Link
           className="noDecoration colorLinks"
           to="/"
-          onClick={() => setModalOpen(false)}
+          onClick={() => {
+            setModalOpen(false);
+            window.scrollTo(0, 0);
+          }}
         >
           À Propos
         </Link>
@@ -24,7 +27,10 @@ export default function NavbarModal({ setModalOpen }) {
         <Link
           className="noDecoration colorLinks"
           to="/studies"
-          onClick={() => setModalOpen(false)}
+          onClick={() => {
+            setModalOpen(false);
+            window.scrollTo(0, 0);
+          }}
         >
           Parcours
         </Link>
@@ -34,7 +40,10 @@ export default function NavbarModal({ setModalOpen }) {
         <Link
           className="noDecoration colorLinks"
           to="/projects"
-          onClick={() => setModalOpen(false)}
+          onClick={() => {
+            setModalOpen(false);
+            window.scrollTo(0, 0);
+          }}
         >
           Projets
         </Link>
@@ -44,7 +53,10 @@ export default function NavbarModal({ setModalOpen }) {
         <Link
           className="noDecoration colorLinks"
           to="/skills"
-          onClick={() => setModalOpen(false)}
+          onClick={() => {
+            setModalOpen(false);
+            window.scrollTo(0, 0);
+          }}
         >
           Compétences
         </Link>
