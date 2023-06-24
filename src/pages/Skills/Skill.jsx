@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Skill({ title, skills }) {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedSkill, setSelectedSkill] = useState("");
+
   function openModal(id) {
     setSelectedSkill(id);
     setModalOpen(true);
@@ -26,7 +27,7 @@ export default function Skill({ title, skills }) {
               src={content.image}
               className="small skillIcon cursorPointer"
               alt={content.altImage}
-              onClick={() => Toggle()}
+              onClick={() => openModal(content.id)}
             />
             {/* <h3>{content.name}</h3> */}
           </div>
