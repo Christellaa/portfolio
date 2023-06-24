@@ -21,6 +21,7 @@ export default function ProjectCard() {
           linkCode,
         }) => (
           <Link
+            onClick={() => window.scrollTo(0, 0)}
             to={`/projects/${id}`}
             className="noDecoration colorBtn"
             key={id}
