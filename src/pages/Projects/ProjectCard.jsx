@@ -50,13 +50,19 @@ export default function ProjectCard() {
                       src={websiteImg}
                       alt="website"
                       width="23"
-                      onClick={() => window.open(website, "_blank")}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.open(website, "_blank");
+                      }}
                     />
                   )}
                   <FontAwesomeIcon
                     icon={faGithub}
                     className="icon"
-                    onClick={() => window.open(linkCode, "_blank")}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open(linkCode, "_blank");
+                    }}
                   />
                   <FontAwesomeIcon icon={faArrowRight} className="icon" />
                 </span>
