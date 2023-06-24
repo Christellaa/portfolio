@@ -1,6 +1,5 @@
 import { useState } from "react";
 import SkillModal from "./SkillModal";
-import skillData from "../../data/skillData.json";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Skill({ title, skills }) {
