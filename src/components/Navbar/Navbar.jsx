@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import NavbarModal from "../NavbarModal/NavbarModal";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
