@@ -32,6 +32,7 @@ export default function Skill({ title, skills }) {
               alt={content.altImage}
               width="80"
               height="80"
+              onClick={() => openModal(content)}
             />
             {/* <h3>{content.name}</h3> */}
           </div>
