@@ -21,19 +21,33 @@ export default function Navbar() {
 
   return (
     // if mobile ? faBars : links
+
     <nav>
       {!isModalOpen ? (
-        <FontAwesomeIcon
-          icon={faBars}
-          className="icon colorLinks cursorPointer"
-          onClick={(e) => setModalOpen(true)}
-        />
+        <motion.div
+          className="navbarMenu cursorPointer"
+        >
+          <motion.span
+            className="navbarMenuBar"
+          ></motion.span>
+          <span className="navbarMenuBar"></span>
+          <motion.span
+            className="navbarMenuBar"
+          ></motion.span>
+        </motion.div>
       ) : (
-        <FontAwesomeIcon
-          icon={faArrowLeft}
-          className="icon colorLinks cursorPointer"
-          onClick={() => setModalOpen(false)}
-        />
+        <motion.div
+          className="navbarMenu cursorPointer"
+          onClick={closeModal}
+        >
+          <motion.span
+            className="navbarMenuBar"
+          ></motion.span>
+          <span className="navbarMenuBar"></span>
+          <motion.span
+            className="navbarMenuBar"
+          ></motion.span>
+        </motion.div>
       )}
       <AnimatePresence>
         {isModalOpen && (
