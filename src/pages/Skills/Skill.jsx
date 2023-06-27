@@ -30,7 +30,8 @@ export default function Skill({ title, skills }) {
               src={content.image}
               className="small skillIcon cursorPointer"
               alt={content.altImage}
-              onClick={() => openModal(content.id)}
+              width="80"
+              height="80"
             />
             {/* <h3>{content.name}</h3> */}
           </div>
