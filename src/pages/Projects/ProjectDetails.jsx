@@ -34,7 +34,12 @@ export default function ProjectDetails() {
         <span className="flex space">
           {website !== null && (
             <Link to={website} target="blank">
-              <img src={websiteImg} alt="Voir le site web" width="23" />
+              <img
+                src={websiteImg}
+                alt="Voir le site web"
+                width="23"
+                height="23"
+              />
             </Link>
           )}
           <Link
@@ -54,7 +59,12 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {tools.map((tool, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <img src={checkMark} width="23" alt="Icône de coche" />
+              <img
+                src={checkMark}
+                width="23"
+                height="23"
+                alt="Icône de coche"
+              />
               {tool}
             </li>
           ))}
@@ -63,7 +73,12 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {learned.map((learn, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <img src={checkMark} width="23" alt="Icône de coche" />
+              <img
+                src={checkMark}
+                width="23"
+                height="23"
+                alt="Icône de coche"
+              />
               {learn}
             </li>
           ))}

@@ -51,6 +51,7 @@ export default function ProjectCard() {
                       src={websiteImg}
                       alt="website"
                       width="23"
+                      height="23"
                       onClick={(e) => {
                         e.preventDefault();
                         window.open(website, "_blank");

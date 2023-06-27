@@ -5,7 +5,7 @@ export default function Study({ description }) {
     <>
       {description.map((descriptionItem, id) => (
         <li key={id} className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
+          <img src={checkMark} width="23" height="23" alt="Icône de coche" />
           {descriptionItem}
         </li>
       ))}
