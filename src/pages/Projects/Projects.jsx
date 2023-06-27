@@ -8,7 +8,7 @@ export default function Projects() {
         Voici une partie de mes projets que j'ai réalisés lors de ma formation
         au sein d'OpenClassrooms.
       </p>
-      <main className="grid gridGap">
+      <main className="grid gridGap gridLargeScreen">
         <ProjectCard />
       </main>
     </div>

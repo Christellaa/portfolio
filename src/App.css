@@ -37,6 +37,11 @@
   .grid {
     padding: 20px 50px 50px 50px;
   }
+
+  .gridLargeScreen {
+    grid-template-columns: repeat(auto-fit, minmax(441px, 1fr));
+  }
+
 }
 
 h1,
