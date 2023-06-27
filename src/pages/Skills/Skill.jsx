@@ -51,7 +51,7 @@ export default function Skill({ title, skills }) {
             <SkillModal
               openModal={openModal}
               closeModal={closeModal}
-              idSkill={selectedSkill}
+              skillId={selectedSkill.id}
             />
           </>
         )}
