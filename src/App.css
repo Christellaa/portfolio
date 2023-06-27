@@ -186,6 +186,12 @@ header img {
   padding-top: 20px;
 }
 
+.imgContainers {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+}
+
 .imgContainer {
   position: relative;
   background-repeat: no-repeat;

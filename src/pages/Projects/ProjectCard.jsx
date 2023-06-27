@@ -27,7 +27,7 @@ export default function ProjectCard() {
             key={id}
           >
             <article className="flexColumn items projectGridItem">
-              <div className="flex flexAround">
+              <div className="imgContainers">
                 <div className="imgContainer imgContainerDesktop">
                   <img
                     src={imageDesktop}
