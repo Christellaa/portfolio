@@ -19,6 +19,44 @@ export default function Navbar() {
     body.classList.remove("noScroll");
   }
 
+  const variants = isModalOpen ? "opened" : "closed";
+  const bar = {
+    opened: {
+      rotate: "180deg",
+      transition: { duration: 0.5 },
+    },
+    closed: {
+      rotate: "-180deg",
+      transition: { duration: 0.5 },
+    },
+  };
+  const topBar = {
+    opened: {
+      rotate: "45deg",
+      width: "20px",
+      translate: "23px 9px",
+      transition: { duration: 0.5 },
+    },
+    closed: {
+      rotate: "0deg",
+      translate: "0px 0px",
+      transition: { duration: 0.5 },
+    },
+  };
+  const bottomBar = {
+    opened: {
+      rotate: "-45deg",
+      width: "20px",
+      translate: "23px -7px",
+      transition: { duration: 0.5 },
+    },
+    closed: {
+      rotate: "0deg",
+      translate: "0px 0px",
+      transition: { duration: 0.5 },
+    },
+  };
+
   return (
     // if mobile ? faBars : links
 
