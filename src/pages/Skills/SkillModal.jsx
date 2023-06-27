@@ -14,7 +14,7 @@ export default function SkillModal({ closeModal, skillName, skillDetails }) {
       <FontAwesomeIcon
         icon={faXmark}
         className="icon xMark cursorPointer"
-        onClick={() => Toggle()}
+        onClick={() => closeModal()}
       />
       <h1 className="textCenter">React</h1>
       <ul className="NoPaddingLeft">
