@@ -26,6 +26,7 @@ export default function Navbar() {
       {!isModalOpen ? (
         <motion.div
           className="navbarMenu cursorPointer"
+          onClick={openModal}
         >
           <motion.span
             className="navbarMenuBar"
