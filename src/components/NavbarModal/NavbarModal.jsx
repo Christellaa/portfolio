@@ -15,7 +15,7 @@ export default function NavbarModal({ closeModal }) {
           className="noDecoration colorLinks"
           to="/"
           onClick={() => {
-            setModalOpen(false);
+            closeModal();
             window.scrollTo(0, 0);
           }}
         >
@@ -28,7 +28,7 @@ export default function NavbarModal({ closeModal }) {
           className="noDecoration colorLinks"
           to="/studies"
           onClick={() => {
-            setModalOpen(false);
+            closeModal();
             window.scrollTo(0, 0);
           }}
         >
@@ -41,7 +41,7 @@ export default function NavbarModal({ closeModal }) {
           className="noDecoration colorLinks"
           to="/projects"
           onClick={() => {
-            setModalOpen(false);
+            closeModal();
             window.scrollTo(0, 0);
           }}
         >
@@ -54,7 +54,7 @@ export default function NavbarModal({ closeModal }) {
           className="noDecoration colorLinks"
           to="/skills"
           onClick={() => {
-            setModalOpen(false);
+            closeModal();
             window.scrollTo(0, 0);
           }}
         >
@@ -67,7 +67,7 @@ export default function NavbarModal({ closeModal }) {
           to={cv}
           className="noDecoration colorLinks"
           target="blank"
-          onClick={() => setModalOpen(false)}
+          onClick={closeModal}
         >
           CV
         </Link>
