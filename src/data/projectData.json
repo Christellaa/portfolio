@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Kasa",
-    "imageDesktop": "./assets/images/kasaDesktop.png",
+    "imageDesktop": "./assets/images/kasaDesktop.webp",
     "imageMobile": "./assets/images/kasaMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop kasaDesktop",
     "classnameMobile": "positionAbsolute imgMobile",
@@ -25,7 +25,7 @@
   {
     "id": 2,
     "title": "ArgentBank",
-    "imageDesktop": "./assets/images/argentbankDesktop.png",
+    "imageDesktop": "./assets/images/argentbankDesktop.webp",
     "imageMobile": "./assets/images/argentbankMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop argentbankDesktop",
     "classnameMobile": "positionAbsolute imgMobile",
@@ -53,7 +53,7 @@
   {
     "id": 3,
     "title": "Site portfolio de Nina Carducci",
-    "imageDesktop": "./assets/images/ninaDesktop.png",
+    "imageDesktop": "./assets/images/ninaDesktop.webp",
     "imageMobile": "./assets/images/ninaMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop ninaDesktop",
     "classnameMobile": "positionAbsolute imgMobile",
@@ -83,7 +83,7 @@
   {
     "id": 4,
     "title": "Site OhMyFood",
-    "imageDesktop": "./assets/images/ohmyfoodDesktop.png",
+    "imageDesktop": "./assets/images/ohmyfoodDesktop.webp",
     "imageMobile": "./assets/images/ohmyfoodMobile.png",
     "classnameDesktop": "positionAbsolute imgDesktop ohmyfoodDesktop",
     "classnameMobile": "positionAbsolute imgMobile",
