@@ -24,8 +24,8 @@ export default function Skill({ title, skills }) {
     <div>
       <h2 className="textCenter">{title}</h2>
       <div className="skillGrid">
-        {skills.map((content, id) => (
-          <div key={id}>
+        {skills.map((content, index) => (
+          <div key={index}>
             <img
               src={content.image}
               className="small skillIcon cursorPointer"
