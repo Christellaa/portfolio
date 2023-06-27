@@ -18,39 +18,13 @@ export default function SkillModal({ closeModal, skillName, skillDetails }) {
       />
       <h1 className="textCenter">{skillName}</h1>
       <ul className="NoPaddingLeft">
-        <li className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
-          details
-        </li>
-        <li className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
-          details
-        </li>
-        <li className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
-          details
-        </li>
-        <li className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
-          details
-        </li>
-        <li className="flex listItems itemsSpace">
-          <img src={checkMark} width="23" alt="Icône de coche" />
-          details
-        </li>
+        {skillDetails.map((detail, index) => (
+          <li key={index} className="flex listItems itemsSpace">
+            <img src={checkMark} width="23" height="23" alt="Icône de coche" />
+            {detail}
+          </li>
+        ))}
       </ul>
     </motion.div>
-    // <>
-    //   {skills.map((id, name, details) => (
-    //     <div key={id}>
-    //       <h3>{name}</h3>
-    //       <ul>
-    //         {details.map((detail, id) => (
-    //           <li key={id}>{detail}</li>
-    //         ))}
-    //       </ul>
-    //     </div>
-    //   ))}
-    // </>
   );
 }
