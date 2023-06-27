@@ -7,6 +7,18 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
   const [isModalOpen, setModalOpen] = useState(false);
+
+  function openModal() {
+    setModalOpen(true);
+    const body = document.body;
+    body.classList.add("noScroll");
+  }
+  function closeModal() {
+    setModalOpen(false);
+    const body = document.body;
+    body.classList.remove("noScroll");
+  }
+
   return (
     // if mobile ? faBars : links
     <nav>
