@@ -65,26 +65,38 @@ export default function Navbar() {
         <motion.div
           className="navbarMenu cursorPointer"
           onClick={openModal}
+          animate={isModalOpen ? "opened" : "closed"}
+          variants={bar}
         >
           <motion.span
             className="navbarMenuBar"
+            animate={isModalOpen ? "opened" : "closed"}
+            variants={topBar}
           ></motion.span>
           <span className="navbarMenuBar"></span>
           <motion.span
             className="navbarMenuBar"
+            animate={isModalOpen ? "opened" : "closed"}
+            variants={bottomBar}
           ></motion.span>
         </motion.div>
       ) : (
         <motion.div
           className="navbarMenu cursorPointer"
           onClick={closeModal}
+          animate={isModalOpen ? "opened" : "closed"}
+          variants={bar}
         >
           <motion.span
             className="navbarMenuBar"
+            animate={isModalOpen ? "opened" : "closed"}
+            variants={topBar}
           ></motion.span>
           <span className="navbarMenuBar"></span>
           <motion.span
             className="navbarMenuBar"
+            animate={isModalOpen ? "opened" : "closed"}
+            variants={bottomBar}
           ></motion.span>
         </motion.div>
       )}
