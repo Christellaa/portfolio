@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import checkMark from "../../assets/checkMark.svg";
 import { motion } from "framer-motion";
 
-export default function SkillModal({ name, details, Toggle }) {
-  console.log(name, details);
+export default function SkillModal({ closeModal, skillName, skillDetails }) {
   return (
     <motion.div
       initial={{ scale: 0 }}
