@@ -6,8 +6,8 @@ export default function Skill({ title, skills }) {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedSkill, setSelectedSkill] = useState("");
 
-  function openModal(id) {
-    setSelectedSkill(id);
+  function openModal(skill) {
+    setSelectedSkill(skill);
     setModalOpen(true);
   }
 
