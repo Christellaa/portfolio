@@ -9,11 +9,15 @@ export default function Skill({ title, skills }) {
   function openModal(skill) {
     setSelectedSkill(skill);
     setModalOpen(true);
+    const body = document.body;
+    body.classList.add("noScroll");
   }
 
   function closeModal() {
     setSelectedSkill("");
     setModalOpen(false);
+    const body = document.body;
+    body.classList.remove("noScroll");
   }
 
   return (
