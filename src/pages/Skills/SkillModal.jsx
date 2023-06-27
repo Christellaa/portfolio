@@ -16,7 +16,7 @@ export default function SkillModal({ closeModal, skillName, skillDetails }) {
         className="icon xMark cursorPointer"
         onClick={() => closeModal()}
       />
-      <h1 className="textCenter">React</h1>
+      <h1 className="textCenter">{skillName}</h1>
       <ul className="NoPaddingLeft">
         <li className="flex listItems itemsSpace">
           <img src={checkMark} width="23" alt="Icône de coche" />
