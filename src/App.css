@@ -159,6 +159,10 @@ header img {
   border-radius: 2px;
 }
 
+.noScroll {
+  overflow-y: hidden;
+}
+
 .bgModalBackdrop {
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
