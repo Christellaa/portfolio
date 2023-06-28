@@ -4,11 +4,13 @@ import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
   return (
-    <header className="flex flexCenter header">
-      <Link to="./">
-        <img src={logo} alt="Logo du site" width="58" height="58" />
-      </Link>
-      <Navbar />
-    </header>
+    <div className="headerContainer">
+      <header className="flex flexCenter header">
+        <Link to="./">
+          <img src={logo} alt="Logo du site" width="58" height="58" />
+        </Link>
+        <Navbar />
+      </header>
+    </div>
   );
 }
