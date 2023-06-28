@@ -60,6 +60,14 @@ body {
   cursor: pointer;
 }
 
+.positionAbsolute {
+  position: absolute;
+}
+
+.positionRelative {
+  position: relative;
+}
+
 .noBullet {
   list-style: none;
   padding-left: 0;
