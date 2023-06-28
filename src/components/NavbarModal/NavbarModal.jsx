@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import cv from "../../assets/pdftest.pdf";
 import { motion } from "framer-motion";
 
-export default function NavbarModal({ closeModal }) {
+export default function NavbarModal({ isModalOpen, closeModal }) {
   return (
     <motion.ul
       initial={{ scale: 0, originY: 0, originX: 1 }}
