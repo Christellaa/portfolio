@@ -48,10 +48,12 @@ h1,
 h2,
 h3 {
   font-family: "Hind", "Trebuchet MS", sans-serif;
+  letter-spacing: 0.04em;
 }
 body {
   margin: 0;
   font-family: "Montserrat", Helvetica, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .cursorPointer {
