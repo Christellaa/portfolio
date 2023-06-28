@@ -173,6 +173,19 @@ header img {
   z-index: 1;
 }
 
+.navbarMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navbarMenuBar {
+  width: 40px;
+  height: 4px;
+  background: #fefefa;
+  border-radius: 3px;
+}
+
 .navbarModal {
   position: fixed;
   background-color: #424668;
