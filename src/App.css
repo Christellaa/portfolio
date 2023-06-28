@@ -174,14 +174,23 @@ header img {
 }
 
 .navbarModal {
-  position: absolute;
+  position: fixed;
   background-color: #424668;
-  gap: 15px;
-  top: 52px;
+  gap: 20px;
+  top: 68px;
   right: 0;
-  padding: 10px;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
   z-index: 2;
-  border-bottom-left-radius: 3px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.navbarModal a {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 .navbarHr {
