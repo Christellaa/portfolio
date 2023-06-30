@@ -224,67 +224,12 @@ header img {
   box-shadow: #b09a9a 0px 4px 14px;
 }
 
-.projectGridItem {
-  padding-top: 20px;
-}
-
-.imgContainers {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
-}
-
 .imgContainer {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.imgContainerDesktop {
-  height: 100px;
-  width: 164px;
-  right: 8px;
-  background-image: url("./assets/baseDesktop.png");
-}
-.imgContainerMobile {
-  height: 89px;
-  width: 49px;
-  top: 51px;
-  right: 16px;
-  background-image: url("./assets/baseMobile.png");
-  transform: rotate(351deg) skew(344deg, 7deg) scale(2)
-    matrix3d(1, 0, 0, -0.0003, -0.37, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  zoom: 0.5;
-}
-
-.positionAbsolute {
-  position: absolute;
-}
-
-.imgDesktop {
-  width: 126px;
-  left: 19px;
-  top: 4px;
-}
-
-.imgMobile {
-  width: 38px;
-  right: 9px;
-  top: 3px;
-  clip-path: inset(0 0 22px 0);
-}
-
-.kasaDesktop,
-.ninaDesktop {
-  clip-path: inset(0 0 55px 0);
-}
-
-.argentbankDesktop {
-  height: 84px;
-}
-
-.ohmyfoodDesktop {
-  clip-path: inset(0 0 29px 0);
+  padding: 20px 10px 0 20px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .projectSpace {
