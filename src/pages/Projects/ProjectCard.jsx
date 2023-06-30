@@ -24,22 +24,22 @@ export default function ProjectCard() {
             className="noDecoration colorBtn"
             key={id}
           >
-            <article className="flexColumn items projectGridItem">
+            <article className="flexColumn items">
               <div className="imgContainer">
-                <div className="imgContainer imgContainerDesktop">
-                  <img
-                    src={imageDesktop}
-                    alt={altImage}
-                    className={classnameDesktop}
-                  />
-                </div>
-                <div className="imgContainer imgContainerMobile">
-                  <img
-                    src={imageMobile}
-                    alt={altImage}
-                    className={classnameMobile}
-                  />
-                </div>
+                <img
+                  src={imageDesktop}
+                  alt={altImage}
+                  height="165"
+                  width="270"
+                  loading="lazy"
+                />
+                <img
+                  src={imageMobile}
+                  alt={altImage}
+                  height="165"
+                  width="122"
+                  loading="lazy"
+                />
               </div>
               <div className="flex flexCenter projectSpace">
                 <h2>{title}</h2>
