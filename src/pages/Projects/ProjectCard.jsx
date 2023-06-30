@@ -14,8 +14,6 @@ export default function ProjectCard() {
           title,
           imageDesktop,
           imageMobile,
-          classnameDesktop,
-          classnameMobile,
           altImage,
           website,
           linkCode,
