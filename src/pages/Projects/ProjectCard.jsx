@@ -4,8 +4,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import projectData from "../../data/projectData.json";
 import websiteImg from "../../assets/website.svg";
+import { motion } from "framer-motion";
 
 export default function ProjectCard() {
+  const projectCard = { opacity: 0.8, scale: 1.05 };
+
   return (
     <>
       {projectData.map(
@@ -24,7 +27,10 @@ export default function ProjectCard() {
             className="noDecoration colorBtn"
             key={id}
           >
-            <article className="flexColumn items">
+            <motion.article
+              className="flexColumn items"
+              whileHover={projectCard}
+            >
               <div className="imgContainer">
                 <img
                   src={imageDesktop}
@@ -67,7 +73,7 @@ export default function ProjectCard() {
                   <FontAwesomeIcon icon={faArrowRight} className="icon" />
                 </span>
               </div>
-            </article>
+            </motion.article>
           </Link>
         )
       )}
