@@ -58,6 +58,10 @@
   .icon {
     font-size: 28px;
   }
+
+  .skillModal {
+    margin: 10% 30%;
+  }
 }
 
 h1,
