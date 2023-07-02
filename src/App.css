@@ -214,6 +214,19 @@ header img {
   width: 60px;
 }
 
+.hoveredLink:hover {
+  color: #ffbd70;
+}
+
+.selectedLink {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #fefefa;
+}
+
 .grid {
   display: grid;
 }
