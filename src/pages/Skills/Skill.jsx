@@ -6,6 +6,11 @@ export default function Skill({ title, skills }) {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedSkill, setSelectedSkill] = useState("");
 
+  const skillIcon = {
+    opacity: 0.8,
+    scale: 1.1,
+  };
+
   function openModal(skill) {
     setSelectedSkill(skill);
     setModalOpen(true);
@@ -26,15 +31,15 @@ export default function Skill({ title, skills }) {
       <div className="skillGrid">
         {skills.map((content, index) => (
           <div key={index}>
-            <img
+            <motion.img
               src={content.image}
-              className="small skillIcon cursorPointer"
+              className="small cursorPointer"
               alt={content.altImage}
               width="80"
               height="80"
+              whileHover={skillIcon}
               onClick={() => openModal(content)}
             />
-            {/* <h3>{content.name}</h3> */}
           </div>
         ))}
       </div>
