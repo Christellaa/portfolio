@@ -50,6 +50,10 @@
     height: 214px;
     width: auto;
   }
+
+  .icon {
+    font-size: 28px;
+  }
 }
 
 h1,
