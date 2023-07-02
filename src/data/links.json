@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "url": "/",
+    "name": "À Propos"
+  },
+  {
+    "id": 2,
+    "url": "/studies",
+    "name": "Parcours"
+  },
+  {
+    "id": 3,
+    "url": "/projects",
+    "name": "Projets"
+  },
+  {
+    "id": 4,
+    "url": "/skills",
+    "name": "Compétences"
+  },
+  {
+    "id": 5,
+    "url": "./assets/pdftest.pdf",
+    "name": "CV",
+    "openInNewTab": true
+  }
+]
