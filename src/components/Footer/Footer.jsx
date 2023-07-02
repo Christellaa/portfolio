@@ -10,7 +10,7 @@ export default function Footer() {
       <ul className="flex flexCenter footer">
         <li className="noBullet">
           <Link
-            className="noDecoration colorLinks"
+            className="noDecoration colorLinks hoveredLink"
             to="mailto:desousa.christella@proton.me"
             aria-label="Envoyer un email"
           >
@@ -19,7 +19,7 @@ export default function Footer() {
         </li>
         <li className="noBullet">
           <Link
-            className="noDecoration colorLinks"
+            className="noDecoration colorLinks hoveredLink"
             to="https://www.linkedin.com/in/christella-desousa/"
             target="blank"
             aria-label="Voir le compte Linkedin"
@@ -29,7 +29,7 @@ export default function Footer() {
         </li>
         <li className="noBullet">
           <Link
-            className="noDecoration colorLinks"
+            className="noDecoration colorLinks hoveredLink"
             to="https://github.com/Christellaa"
             target="blank"
             aria-label="Voir le compte GitHub"
