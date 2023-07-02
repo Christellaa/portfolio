@@ -113,10 +113,6 @@ body {
   text-transform: uppercase;
 }
 
-.icon {
-  font-size: 23px;
-}
-
 .flex {
   display: flex;
 }
@@ -289,9 +285,6 @@ header img {
 }
 
 .studyGridItem {
-  border-radius: 5px;
-  background-color: #ede1d6;
-  box-shadow: #b09a9a 0px 0px 4px;
   padding: 0px 15px;
 }
 
