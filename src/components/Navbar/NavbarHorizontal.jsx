@@ -1,34 +1,42 @@
 import { Link } from "react-router-dom";
-import cv from "../../assets/pdftest.pdf";
+import { motion } from "framer-motion";
+import links from "../../data/links.json";
+import { useState } from "react";
 
 export default function NavbarHorizontal() {
+  const [selectedLink, setSelectedLink] = useState(links[0]);
+
   return (
     <ul className="flex flexCenter space">
-      <li className="noBullet">
-        <Link className="noDecoration colorLinks" to="/">
-          À Propos
-        </Link>
-      </li>
-      <li className="noBullet">
-        <Link className="noDecoration colorLinks" to="/studies">
-          Parcours
-        </Link>
-      </li>
-      <li className="noBullet">
-        <Link className="noDecoration colorLinks" to="/projects">
-          Projets
-        </Link>
-      </li>
-      <li className="noBullet">
-        <Link className="noDecoration colorLinks" to="/skills">
-          Compétences
-        </Link>
-      </li>
-      <li className="noBullet">
-        <Link to={cv} className="noDecoration colorLinks" target="blank">
-          CV
-        </Link>
-      </li>
+      {links.map((link, id) =>
+        link.openInNewTab === true ? (
+          <motion.li key={id} className="noBullet positionRelative">
+            <Link
+              className="noDecoration colorLinks hoveredLink"
+              to={link.url}
+              target="_blank"
+            >
+              {link.name}
+            </Link>
+          </motion.li>
+        ) : (
+          <motion.li
+            key={id}
+            className="noBullet positionRelative"
+            onClick={() => setSelectedLink(link)}
+          >
+            <Link className="noDecoration colorLinks hoveredLink" to={link.url}>
+              {link.name}
+            </Link>
+            {link === selectedLink ? (
+              <motion.div
+                className="selectedLink"
+                layoutId="selectedLink"
+              ></motion.div>
+            ) : null}
+          </motion.li>
+        )
+      )}
     </ul>
   );
 }
