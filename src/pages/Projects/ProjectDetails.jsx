@@ -7,8 +7,11 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import websiteImg from "../../assets/website.svg";
 import checkMark from "../../assets/checkMark.svg";
+import { motion } from "framer-motion";
 
 export default function ProjectDetails() {
+  const hoveredIcon = { scale: 1.1 };
+
   const params = useParams();
   const project = projectData.find(
     (project) => project.id === parseInt(params.id)
@@ -28,27 +31,36 @@ export default function ProjectDetails() {
   return (
     <div key={id} className="wrapper">
       <div className="flex projectLinks">
-        <Link to="/projects" aria-label="Retourner sur l'ensemble des projets">
-          <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
-        </Link>
-        <span className="flex space">
-          {website !== null && (
-            <Link to={website} target="blank">
-              <img
-                src={websiteImg}
-                alt="Voir le site web"
-                width="23"
-                height="23"
-              />
-            </Link>
-          )}
+        <motion.span whileHover={hoveredIcon}>
           <Link
-            to={linkCode}
-            target="blank"
-            aria-label="Voir le code du site sur GitHub"
+            to="/projects"
+            aria-label="Retourner sur l'ensemble des projets"
           >
-            <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
+            <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
           </Link>
+        </motion.span>
+        <span className="flex space" whileHover={hoveredIcon}>
+          {website !== null && (
+            <motion.span whileHover={hoveredIcon}>
+              <Link to={website} target="blank">
+                <img
+                  src={websiteImg}
+                  alt="Voir le site web"
+                  width="23"
+                  height="23"
+                />
+              </Link>
+            </motion.span>
+          )}
+          <motion.span whileHover={hoveredIcon}>
+            <Link
+              to={linkCode}
+              target="blank"
+              aria-label="Voir le code du site sur GitHub"
+            >
+              <FontAwesomeIcon icon={faGithub} className="colorBtn icon" />
+            </Link>
+          </motion.span>
         </span>
       </div>
       <div>
