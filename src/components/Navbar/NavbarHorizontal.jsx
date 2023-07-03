@@ -25,7 +25,11 @@ export default function NavbarHorizontal() {
             className="noBullet positionRelative"
             onClick={() => setSelectedLink(link)}
           >
-            <Link className="noDecoration colorLinks hoveredLink" to={link.url}>
+            <Link
+              className="noDecoration colorLinks hoveredLink"
+              to={link.url}
+              onClick={() => window.scrollTo(0, 0)}
+            >
               {link.name}
             </Link>
             {link === selectedLink ? (
