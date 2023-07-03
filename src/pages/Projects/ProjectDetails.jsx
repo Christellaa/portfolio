@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import websiteImg from "../../assets/website.svg";
-import checkMark from "../../assets/checkMark.svg";
+import WebsiteImg from "../../assets/website.svg";
+import CheckMark from "../../assets/checkMark.svg";
 import { motion } from "framer-motion";
 
 export default function ProjectDetails() {
@@ -43,12 +43,7 @@ export default function ProjectDetails() {
           {website !== null && (
             <motion.span whileHover={hoveredIcon}>
               <Link to={website} target="blank">
-                <img
-                  src={websiteImg}
-                  alt="Voir le site web"
-                  width="23"
-                  height="23"
-                />
+                <WebsiteImg alt="Voir le site web" width="23" height="23" />
               </Link>
             </motion.span>
           )}
@@ -71,12 +66,7 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {tools.map((tool, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <img
-                src={checkMark}
-                width="23"
-                height="23"
-                alt="Icône de coche"
-              />
+              <CheckMark width="23" height="23" alt="Icône de coche" />
               {tool}
             </li>
           ))}
@@ -85,12 +75,7 @@ export default function ProjectDetails() {
         <ul className="NoPaddingLeft">
           {learned.map((learn, id) => (
             <li key={id} className="flex listItems itemsSpace">
-              <img
-                src={checkMark}
-                width="23"
-                height="23"
-                alt="Icône de coche"
-              />
+              <CheckMark width="23" height="23" alt="Icône de coche" />
               {learn}
             </li>
           ))}

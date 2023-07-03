@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import projectData from "../../data/projectData.json";
-import websiteImg from "../../assets/website.svg";
+import WebsiteImg from "../../assets/website.svg";
 import { motion } from "framer-motion";
 
 export default function ProjectCard() {
@@ -51,11 +51,11 @@ export default function ProjectCard() {
                 <h2>{title}</h2>
                 <span className="flex space">
                   {website !== null && (
-                    <img
-                      src={websiteImg}
+                    <WebsiteImg
                       alt="website"
                       width="23"
                       height="23"
+                      className="icon"
                       onClick={(e) => {
                         e.preventDefault();
                         window.open(website, "_blank");

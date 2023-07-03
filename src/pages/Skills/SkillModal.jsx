@@ -1,6 +1,6 @@
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import checkMark from "../../assets/checkMark.svg";
+import CheckMark from "../../assets/checkMark.svg";
 import { motion } from "framer-motion";
 
 export default function SkillModal({ closeModal, skillName, skillDetails }) {
@@ -20,7 +20,9 @@ export default function SkillModal({ closeModal, skillName, skillDetails }) {
       <ul className="NoPaddingLeft">
         {skillDetails.map((detail, index) => (
           <li key={index} className="flex listItems itemsSpace">
-            <img src={checkMark} width="23" height="23" alt="Icône de coche" />
+            <span className="minWidthIcons">
+              <CheckMark width="23" height="23" alt="Icône de coche" />
+            </span>
             {detail}
           </li>
         ))}
