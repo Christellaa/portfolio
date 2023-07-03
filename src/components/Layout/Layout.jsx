@@ -41,6 +41,8 @@ export default function Layout({ children }) {
           content="https://christellaa.github.io/portfolio/assets/logo.svg"
         />
         <meta name="twitter:image:alt" content="Logo du site portfolio" />
+        <title>Portfolio - Christella De Sousa</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
       </Helmet>
 
       <div className="flexColumn layout">
