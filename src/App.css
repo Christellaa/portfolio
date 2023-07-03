@@ -22,6 +22,13 @@
   .skillModal {
     margin: 10% 10%;
   }
+
+  .error {
+    font-size: 22px;
+  }
+  .error h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -61,6 +68,13 @@
 
   .skillModal {
     margin: 10% 30%;
+  }
+
+  .error {
+    font-size: 30px;
+  }
+  .error h1 {
+    font-size: 40px;
   }
 }
 
@@ -341,4 +355,8 @@ header img {
   position: absolute;
   right: 15px;
   top: 10px;
+}
+
+.error {
+  justify-content: center;
 }
