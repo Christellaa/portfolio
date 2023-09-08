@@ -182,14 +182,12 @@ header img {
 
 .footer {
   background-color: #333652;
-  justify-content: space-evenly;
+.footer {
+  justify-content: center;
+  gap: 30px;
   height: 58px;
   padding-left: 0;
-  margin-bottom: 0;
-}
-
-.marginLeft {
-  margin-left: 53px;
+  margin: 0;
 }
 
 .hr {
