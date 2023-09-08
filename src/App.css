@@ -90,7 +90,8 @@ h3 {
   font-family: "Hind", "Trebuchet MS", sans-serif;
   letter-spacing: 0.04em;
 }
-body {
+body,
+h4 {
   margin: 0;
   font-family: "Montserrat", Helvetica, sans-serif;
   letter-spacing: 0.03em;
