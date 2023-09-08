@@ -41,6 +41,15 @@ export default function NavbarHorizontal() {
           </motion.li>
         )
       )}
+      <motion.li className="noBullet positionRelative">
+        <Link
+          className="noDecoration colorLinks contactBtn"
+          to="mailto:desousa.christella@proton.me"
+          target="_blank"
+        >
+          Contact
+        </Link>
+      </motion.li>
     </ul>
   );
 }
