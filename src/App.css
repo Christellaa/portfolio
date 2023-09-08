@@ -180,8 +180,12 @@ header img {
   width: 58px;
 }
 
-.footer {
+footer {
   background-color: #333652;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
 .footer {
   justify-content: center;
   gap: 30px;
