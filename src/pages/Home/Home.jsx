@@ -15,6 +15,9 @@ export default function Home() {
             web.
           </p>
         </main>
+        <a href="mailto:desousa.christella@proton.me" className="noDecoration">
+          <button className="contactBtn">Me contacter</button>
+        </a>
     </div>
   );
 }
