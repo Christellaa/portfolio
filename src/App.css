@@ -132,6 +132,7 @@ h4 {
 
 .textUppercase {
   text-transform: uppercase;
+  margin-right: 80px;
 }
 
 .flex {
