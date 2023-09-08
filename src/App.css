@@ -262,6 +262,44 @@ header img {
   background-color: #fefefa;
 }
 
+.contactBtn {
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #ffab5a 0,
+    #ff6254 100%
+  );
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: rgb(66 36 35 / 40%) 0 2px 4px, rgb(66 53 35 / 30%) 0 7px 13px -3px,
+    rgb(111 79 58 / 50%) 0 -3px 0 inset;
+  color: #fefefa;
+  cursor: pointer;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  user-select: none;
+  font-size: 18px;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.contactBtn:hover {
+  box-shadow: rgba(66, 36, 35, 0.4) 0 4px 8px,
+    rgba(66, 49, 35, 0.3) 0 7px 13px -3px, #6f4f3a80 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.contactBtn:focus {
+  box-shadow: #ff6254 0 0 0 1.5px inset, rgba(66, 46, 35, 0.4) 0 2px 4px,
+    rgba(66, 48, 35, 0.3) 0 7px 13px -3px, #ff6254 0 -3px 0 inset;
+}
+
+.contactBtn:active {
+  box-shadow: #ff6254 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
 .grid {
   display: grid;
 }
