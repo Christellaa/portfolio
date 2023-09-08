@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
+      <h4>Retrouvez-moi ici:</h4>
       <ul className="flex flexCenter footer">
         <li className="noBullet">
           <Link
