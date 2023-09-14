@@ -28,10 +28,7 @@ export default function Home() {
           </p>
           <p>
             En ce début de carrière, je me spécialise dans la création de sites
-            web côté front-end. Je crée des sites intuitifs, réactifs et
-            élégants, donnant vie à vos idées en ligne tout en alliant
-            fonctionnalité et esthétique pour renforcer votre présence sur le
-            web.
+            web côté front-end et dans le développement d'applications Android.
           </p>
         </main>
         <a href="mailto:desousa.christella@proton.me" className="noDecoration">
