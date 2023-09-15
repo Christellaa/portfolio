@@ -145,6 +145,7 @@ h4 {
 
 .flexCenter {
   align-items: center;
+  justify-content: center;
 }
 
 .flexColumn {
