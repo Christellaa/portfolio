@@ -163,7 +163,8 @@ h4 {
 .items {
   background-color: #ede1d6;
   border-radius: 5px;
-  box-shadow: #b09a9a 0px 4px 14px;
+  box-shadow: rgb(111 93 93 / 26%) 1px 1px 8px 3px,
+    rgb(80 67 48 / 21%) 0 7px 13px -3px, rgb(136 114 100 / 32%) 0 -3px 0 inset;
 }
 
 .space {
