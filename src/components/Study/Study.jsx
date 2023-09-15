@@ -1,9 +1,12 @@
+import { motion } from "framer-motion";
 import StudyDescription from "./StudyDescription";
 import hat from "../../assets/hat.svg";
 
 export default function Study({ title, place, year, description }) {
+  const studyCard = { scale: 1.02 };
+
   return (
-    <article className="flex items studyGridItem">
+    <motion.article className="flex items studyGridItem" whileHover={studyCard}>
       <div className="studyLeft">
         <h2 className="studyTitle">{title}</h2>
         <h3 className="place">{place}</h3>
@@ -17,6 +20,6 @@ export default function Study({ title, place, year, description }) {
           <img src={hat} className="hat" alt="" />
         </span>
       </div>
-    </article>
+    </motion.article>
   );
 }
