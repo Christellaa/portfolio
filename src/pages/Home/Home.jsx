@@ -1,7 +1,12 @@
-import photo from "../../assets/photo.png";
+import arrow from "../../assets/arrow.svg";
 
 export default function Home() {
   return (
+    <div className="wrapper">
+      <div className="flexColumn flexCenter">
+        <h1 className="textCenter">
+          Bonjour, je suis <span className="colorName">Christella</span>
+        </h1>
         <span className="positionRelative itemsSpace textCenter">
           <img src={arrow} alt="" className="positionAbsolute arrow" />
           Développeuse web front-end
@@ -9,6 +14,7 @@ export default function Home() {
           Développeuse Android
         </span>
         <hr className="hr" />
+      </div>
       <main className="flex flexCenter">
         <div className="homeText flexColumn flexCenter">
           <p>
