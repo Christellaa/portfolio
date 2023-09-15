@@ -2,21 +2,12 @@ import photo from "../../assets/photo.png";
 
 export default function Home() {
   return (
-    <div className="wrapper flex">
-      <div className="homeLeft">
-        <span className="photoBg">
-          <img
-            src={photo}
-            className="homePhoto"
-            alt="Website developer, Christella"
-          />
+        <span className="positionRelative itemsSpace textCenter">
+          <img src={arrow} alt="" className="positionAbsolute arrow" />
+          Développeuse web front-end
+          <br />
+          Développeuse Android
         </span>
-      </div>
-      <div className="homeRight">
-        <h1 className="textUppercase textCenter">
-          Christella <br />
-          <span className="titleMarginLeft">De Sousa</span>
-        </h1>
         <hr className="hr" />
       <main className="flex flexCenter">
         <div className="homeText flexColumn flexCenter">
