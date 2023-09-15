@@ -416,7 +416,9 @@ footer h4 {
 
 /* #region Study */
 .studyGridItem {
-  padding: 0px 15px;
+  padding: 0 70px 0 15px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .studyTitle {
@@ -431,6 +433,22 @@ footer h4 {
 
 .date {
   margin-top: 0;
+}
+
+.studyLeft {
+  width: 64%;
+}
+
+.hatBg {
+  background-color: #ddc6b8;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.hat {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
 }
 /* #endregion Study */
 
