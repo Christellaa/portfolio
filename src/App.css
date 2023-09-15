@@ -280,18 +280,9 @@ footer h4 {
   left: -52px;
 }
 
-.homeRight {
-  margin-right: 50px;
-  text-align: justify;
-}
-
-.homeLeft,
-.homeRight {
+.homeText {
   width: 50%;
-}
-
-.titleMarginLeft {
-  margin-left: 150px;
+  text-align: justify;
 }
 
 .contactBtn {
