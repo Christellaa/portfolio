@@ -1,4 +1,4 @@
-import arrow from "../../assets/arrow.svg";
+import arrowLoop from "../../assets/arrowLoop.svg";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
           Bonjour, je suis <span className="colorName">Christella</span>
         </h1>
         <span className="positionRelative itemsSpace textCenter">
-          <img src={arrow} alt="" className="positionAbsolute arrow" />
+          <img src={arrowLoop} alt="" className="positionAbsolute arrow" />
           Développeuse web front-end
           <br />
           Développeuse Android
