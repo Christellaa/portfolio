@@ -271,12 +271,10 @@ footer h4 {
   background-color: #fefefa;
 }
 
-.photoBg {
-  background-color: #3e468a74;
-  display: inline-block;
-  border-radius: 50%;
-  overflow: hidden;
-  height: 250px;
+.colorName {
+  color: #f44700;
+}
+
 }
 
 .homePhoto {
