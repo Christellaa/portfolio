@@ -275,20 +275,9 @@ footer h4 {
   color: #f44700;
 }
 
-}
-
-.homePhoto {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.homeLeft,
-.homeRight main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.arrow {
+  bottom: -10px;
+  left: -52px;
 }
 
 .homeRight {
