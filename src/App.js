@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Studies from "./pages/Studies/Studies";
 import Projects from "./pages/Projects/Projects";
-import ProjectDetails from "./pages/Projects/ProjectDetails";
+import ProjectDetails from "./components/Project/ProjectDetails";
 import Skills from "./pages/Skills/Skills";
-import Error from "./pages/Error";
+import Error from "./pages/Error/Error";
 import "./App.css";
 
 function App() {

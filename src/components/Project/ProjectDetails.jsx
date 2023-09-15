@@ -1,6 +1,6 @@
 import projectData from "../../data/projectData.json";
 import { useParams } from "react-router-dom";
-import Error from "../Error";
+import Error from "../../pages/Error/Error";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";

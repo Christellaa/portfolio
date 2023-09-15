@@ -1,4 +1,4 @@
-import Skill from "./Skill";
+import Skill from "../../components/Skill/Skill";
 import skillData from "../../data/skillData.json";
 
 export default function Skills() {

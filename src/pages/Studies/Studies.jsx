@@ -1,5 +1,5 @@
 import studyData from "../../data/studyData.json";
-import Study from "./Study";
+import Study from "../../components/Study/Study";
 
 export default function Courses() {
   return (
