@@ -2,8 +2,7 @@
   {
     "id": 1,
     "title": "Kasa",
-    "imageDesktop": "./assets/images/kasaDesktop.webp",
-    "imageMobile": "./assets/images/kasaMobile.webp",
+    "image": "./assets/images/kasa.png",
     "altImage": "Page d'accueil du projet Kasa",
     "website": "https://christellaa.github.io/kasa/",
     "linkCode": "https://github.com/Christellaa/kasa",
@@ -23,8 +22,7 @@
   {
     "id": 2,
     "title": "ArgentBank",
-    "imageDesktop": "./assets/images/argentbankDesktop.webp",
-    "imageMobile": "./assets/images/argentbankMobile.webp",
+    "image": "./assets/images/argentbank.png",
     "altImage": "Page d'accueil du projet ArgentBank",
     "website": null,
     "linkCode": "https://github.com/Christellaa/ArgentBank-website/tree/main",
@@ -49,8 +47,7 @@
   {
     "id": 3,
     "title": "Site portfolio de Nina Carducci",
-    "imageDesktop": "./assets/images/ninaDesktop.webp",
-    "imageMobile": "./assets/images/ninaMobile.webp",
+    "image": "./assets/images/nina.png",
     "altImage": "Page du projet Portfolio Nina Carducci",
     "website": "https://christellaa.github.io/ninacarducci/",
     "linkCode": "https://github.com/Christellaa/ninacarducci",
@@ -77,8 +74,7 @@
   {
     "id": 4,
     "title": "Site OhMyFood",
-    "imageDesktop": "./assets/images/ohmyfoodDesktop.webp",
-    "imageMobile": "./assets/images/ohmyfoodMobile.webp",
+    "image": "./assets/images/ohmyfood.png",
     "altImage": "Page d'accueil du projet OhMyFood",
     "website": "https://christellaa.github.io/ohmyfood/",
     "linkCode": "https://github.com/Christellaa/ohmyfood",
