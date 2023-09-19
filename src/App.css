@@ -347,6 +347,41 @@ footer h4 {
 /* #endregion Home */
 
 /* #region Projects */
+.cardContainer {
+  position: relative;
+  height: 400px;
+}
+
+.cardContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 300ms ease-out;
+}
+
+.cardContainer:hover img {
+  filter: brightness(0.5);
+}
+
+.cardContainer:hover .cardInfo {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cardInfo {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  visibility: hidden;
+  color: white;
+  opacity: 0;
+  transition: all 300ms ease-out;
+}
 
 .cardTitle {
   margin-bottom: 10px;
