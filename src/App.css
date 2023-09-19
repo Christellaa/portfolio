@@ -63,11 +63,6 @@
     grid-template-columns: repeat(auto-fit, minmax(441px, 1fr));
   }
 
-  .imgContainer img {
-    height: 214px;
-    width: auto;
-  }
-
   .icon {
     font-size: 28px;
   }
