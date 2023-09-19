@@ -170,6 +170,54 @@
           "Rendre plus accessible un site internet",
           "Connaitre ce qui ralentit un site"
         ]
+      },
+      {
+        "id": 9,
+        "name": "Android Studio",
+        "image": "./assets/icons/androidStudioIcon.svg",
+        "altImage": "Icône du logiciel Android Studio",
+        "details": [
+          "Explorer les différents fichiers de l'application",
+          "Utiliser les commandes Git dans le terminal",
+          "Ajouter des extensions afin d'affiner le code",
+          "Utiliser l'émulateur pour accéder à l'application en temps réel"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Android",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Kotlin",
+        "image": "./assets/icons/kotlinIcon.svg",
+        "altImage": "Icône du langage Kotlin",
+        "details": [
+          "Utiliser JetPack Compose",
+          "Créer des composables",
+          "Utiliser les conditions, les classes, les objets, les functions et les expressions lambda",
+          "Créer la mise en page et les composants graphiques d'une activité",
+          "Connecter un appareil à Android Studio",
+          "Utiliser l'émulateur d'Android Studio",
+          "Rendre une activité interactive",
+          "Utiliser le débuggeur d'Android Studio",
+          "Stocker et restaurer l'état d'une variable",
+          "Créer des tests unitaires",
+          "Créer des tests d'intégrations"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Java",
+        "image": "./assets/icons/javaIcon.svg",
+        "altImage": "Icône du langage Java",
+        "details": [
+          "Créer la mise en page et les composants graphiques d'une activité",
+          "Accéder aux ressources d'une activité"
+        ]
       }
     ]
   }
