@@ -347,12 +347,13 @@ footer h4 {
 /* #endregion Home */
 
 /* #region Projects */
-.imgContainer {
-  padding: 20px 10px 0 20px;
-  gap: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+
+.cardTitle {
+  margin-bottom: 10px;
+}
+
+.iconSpace {
+  padding: 15px;
 }
 
 .projectSpace {
