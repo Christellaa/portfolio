@@ -91,9 +91,9 @@
         "id": 1,
         "name": "Visual Studio Code",
         "image": "./assets/icons/vscodeIcon.svg",
-        "altImage": "Icône de l'éditeur de texte Visual Studio Code",
+        "altImage": "Icône de l'éditeur de code Visual Studio Code",
         "details": [
-          "Explorer les diffférents fichiers du site",
+          "Explorer les différents fichiers du site",
           "Utiliser les commandes Git dans le terminal",
           "Ajouter des extensions afin d'affiner le code",
           "Utiliser l'extension Live Server pour accéder en temps réel au site"
