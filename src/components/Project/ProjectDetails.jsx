@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import websiteImg from "../../assets/website.svg";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import checkMark from "../../assets/checkMark.svg";
 import { motion } from "framer-motion";
 
@@ -44,12 +44,7 @@ export default function ProjectDetails() {
           {website !== null && (
             <motion.span whileHover={hoveredIcon}>
               <Link to={website} target="blank">
-                <img
-                  src={websiteImg}
-                  alt="Voir le site web"
-                  width="23"
-                  height="23"
-                />
+                <FontAwesomeIcon icon={faGlobe} className="colorBtn icon" />
               </Link>
             </motion.span>
           )}
