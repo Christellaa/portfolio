@@ -67,34 +67,40 @@ export default function ProjectDetails() {
       <div>
         <h2>Description</h2>
         <p>{description}</p>
-        <h2>Langages et outils utilisés</h2>
-        <ul className="NoPaddingLeft">
-          {tools.map((tool, id) => (
-            <li key={id} className="flex listItems itemsSpace">
-              <img
-                src={checkMark}
-                width="23"
-                height="23"
-                alt="Icône de coche"
-              />
-              {tool}
-            </li>
-          ))}
-        </ul>
-        <h2>Ce que le projet m'a apporté</h2>
-        <ul className="NoPaddingLeft">
-          {learned.map((learn, id) => (
-            <li key={id} className="flex listItems itemsSpace">
-              <img
-                src={checkMark}
-                width="23"
-                height="23"
-                alt="Icône de coche"
-              />
-              {learn}
-            </li>
-          ))}
-        </ul>
+        <div className="flex projectDetail">
+          <div className="flexColumn">
+            <h2>Langages et outils utilisés</h2>
+            <ul className="NoPaddingLeft">
+              {tools.map((tool, id) => (
+                <li key={id} className="flex listItems itemsSpace">
+                  <img
+                    src={checkMark}
+                    width="23"
+                    height="23"
+                    alt="Icône de coche"
+                  />
+                  {tool}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flexColumn">
+            <h2>Ce que le projet m'a apporté</h2>
+            <ul className="NoPaddingLeft">
+              {learned.map((learn, id) => (
+                <li key={id} className="flex listItems itemsSpace">
+                  <img
+                    src={checkMark}
+                    width="23"
+                    height="23"
+                    alt="Icône de coche"
+                  />
+                  {learn}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
