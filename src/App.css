@@ -410,6 +410,8 @@ footer h4 {
   flex: 1;
 }
 
+.projectDetail h2 {
+  margin-bottom: 0;
 }
 /* #endregion Projects */
 
