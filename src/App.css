@@ -398,7 +398,9 @@ footer h4 {
 
 .projectLinks {
   justify-content: space-between;
-  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
 }
 /* #endregion Projects */
 
