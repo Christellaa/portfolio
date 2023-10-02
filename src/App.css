@@ -353,6 +353,9 @@ footer h4 {
   width: 50%;
   text-align: justify;
 }
+.homeText .contactBtn {
+  margin-top: 10px;
+}
 /* #endregion Home */
 
 /* #region Projects */
