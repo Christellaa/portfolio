@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="wrapper">
       <div className="flexColumn flexCenter">
-        <h1 className="textCenter">
-          Bonjour, je suis <span className="colorName">Christella</span>
+        <h1 className="textCenter itemsSpace">
+          <span className="colorNoTitle">Bonjour, je suis </span>Christella
         </h1>
         <span className="positionRelative itemsSpace textCenter">
           <img src={arrowLoop} alt="" className="positionAbsolute arrow" />
