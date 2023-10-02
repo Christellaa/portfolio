@@ -39,6 +39,7 @@ export default function ProjectDetails() {
             <FontAwesomeIcon icon={faArrowLeft} className="colorBtn icon" />
           </Link>
         </motion.span>
+        <h1>{title}</h1>
         <span className="flex space" whileHover={hoveredIcon}>
           {website !== null && (
             <motion.span whileHover={hoveredIcon}>
@@ -64,7 +65,6 @@ export default function ProjectDetails() {
         </span>
       </div>
       <div>
-        <h1>{title}</h1>
         <h2>Description</h2>
         <p>{description}</p>
         <h2>Langages et outils utilisés</h2>
