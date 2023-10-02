@@ -36,13 +36,16 @@
 
 @media screen and (min-width: 769px) {
   h1 {
-    font-size: 32px;
+    font-size: 55px;
+    font-weight: 600;
   }
   h2 {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 500;
   }
   h3 {
     font-size: 22px;
+    font-weight: 400;
   }
   h4 {
     font-size: 16px;
