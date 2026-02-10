@@ -12,7 +12,7 @@ const content = {
             ]
         },
         hardSkills: [
-            { type: "DevOps", skills: ["Docker", "Docker Compose", "Bash", "Linux", "Virtualization", "Microservices", "CI/CD"] },
+            { type: "DevOps", skills: ["Docker", "Docker Compose", "Bash", "Linux", "Virtualization", "Microservices", "CI/CD pipeline"] },
             { type: "Monitoring", skills: ["Grafana", "Prometheus", "ELK Stack"] },
             { type: "Security", skills: ["SSL/TLS", "System & Network Security", "2FA", "Hashing", "Vault", "Tokens"] },
             { type: "Scripting", skills: ["Bash"] }
@@ -32,7 +32,7 @@ const content = {
             ]
         },
         hardSkills: [
-            { type: "DevOps", skills: ["Docker", "Docker Compose", "Bash", "Linux", "Virtualisation", "Microservices", "CI/CD"] },
+            { type: "DevOps", skills: ["Docker", "Docker Compose", "Bash", "Linux", "Virtualisation", "Microservices", "Pipeline CI/CD"] },
             { type: "Monitoring", skills: ["Grafana", "Prometheus", "ELK Stack"] },
             { type: "Sécurité", skills: ["SSL/TLS", "Sécurité Système & Réseau", "2FA", "Hashing", "Vault", "Tokens"] },
             { type: "Scripting", skills: ["Bash"] }
