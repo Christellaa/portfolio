@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Christellaa's Portfolio</title>
+    <script src="content.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+    <header>
+        <img src="logo.webp" alt="Logo">
+        <div class="lang-buttons">
+            <button onclick="showLang('en')">English</button>
+            <button onclick="showLang('fr')">Français</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 id="title"></h1>
+        <p id="desc"></p>
+
+        <h2 id="about"></h2>
+        <p id="about-desc"></p>
+
+        <h2>Hard Skills</h2>
+        <div id="skills">
+        </div>
+
+        <h2 id="projects"></h2>
+        <div class="projects">
+            <div class="project-card">
+                <a href="https://github.com/Christellaa/Inception.git">
+                    <img src="https://raw.githubusercontent.com/ayogun/42-project-badges/refs/heads/main/badges/inceptione.png"
+                        alt="Inception badge">
+                    <br><strong>Inception</strong>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/Christellaa/transcendence_42.git">
+                    <img src="https://raw.githubusercontent.com/ayogun/42-project-badges/refs/heads/main/badges/ft_transcendencee.png"
+                        alt="Transcendence badge">
+                    <br><strong>Transcendence</strong>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/Christellaa/Minishell.git">
+                    <img src="https://raw.githubusercontent.com/ayogun/42-project-badges/refs/heads/main/badges/minishelle.png"
+                        alt="Minishell badge">
+                    <br><strong>Minishell</strong>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p><a href="https://www.linkedin.com/in/christella-desousa">LinkedIn</a></p>
+        </div>
+    </div>
 </body>
+
 </html>
